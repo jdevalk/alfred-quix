@@ -869,6 +869,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>25EE5925-9D18-41FB-99CA-3E5ADEBCD6D6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -996,7 +1006,7 @@
 	<key>createdby</key>
 	<string>Joost de Valk</string>
 	<key>description</key>
-	<string></string>
+	<string>An Alfred workflow to quickly perform numerous checks on websites.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -1124,6 +1134,103 @@
 			<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/info.plist'
+readonly workflow_url='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/Quix.alfredworkflow'
+readonly download_type='direct'
+readonly frequency_check='4'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type f -name 'notificator')"
+
+  if [[ -f "${notificator}" &amp;&amp; "$(/usr/bin/file --brief --mime-type "${notificator}")" == 'text/x-shellscript' ]]; then
+    "${notificator}" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  # Remote sanity check
+  if ! url_exists "${remote_info_plist}"; then
+    abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."
+  fi
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+  rm "${tmp_file}"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  readonly download_url="$(
+    if [[ "${download_type}" == 'github_release' ]]; then
+      osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["assets"].find(asset =&gt; asset["browser_download_url"].endsWith(".alfredworkflow"))["browser_download_url"] }' "$(curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest")"
+    else
+      echo "${workflow_url}"
+    fi
+  )"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    readonly download_name="$(basename "${download_url}")"
+    curl --silent --location --output "${HOME}/Downloads/${download_name}" "${download_url}"
+    open "${HOME}/Downloads/${download_name}"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2411,8 +2518,8 @@ document.getElementsByClassName('Button--primary')[0].click();
 
 It comes with 3 built-in commands:
 
-- Quix itself, opened with `Alt+Q` by default or by typing `q`
-- Site search, opened with `Cmd+Alt+S` by default, or by typing `site-search`
+- Quix itself, which I always open with `Alt+Q` or by typing `q`
+- Site search, which I always open with `Cmd+Alt+S`, or by typing `site-search`
 - Whois, opened by typing `whois`</string>
 	<key>uidata</key>
 	<dict>
@@ -2776,9 +2883,20 @@ to $command</string>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<dict>
 			<key>xpos</key>
-			<real>2350</real>
+			<real>2315</real>
 			<key>ypos</key>
 			<real>455</real>
+		</dict>
+		<key>D2775E3F-13E7-4C45-A67F-B55F731D0665</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<real>2450</real>
+			<key>ypos</key>
+			<real>180</real>
 		</dict>
 		<key>D4D411C5-9C5A-4CE4-91A5-1CB1DD093F55</key>
 		<dict>
@@ -2861,9 +2979,11 @@ to $browser</string>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
-	<string>https://joost.blog/</string>
+	<string>https://joost.blog/alfred-quix/</string>
 </dict>
 </plist>
