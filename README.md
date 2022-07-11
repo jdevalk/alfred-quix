@@ -1,6 +1,6 @@
 # Quix AlfredApp workflow
 
-<img src="icon.png" alt="Quix logo" align="right" width="200" height="200">
+<img src="icon.png" alt="Quix logo" align="right" width="150" height="150">
 
 An Alfred workflow to quickly perform numerous checks on websites.
 
