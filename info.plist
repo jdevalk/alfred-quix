@@ -327,6 +327,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>77BE4DC4-8F79-4881-8FF3-66164BAF1328</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>79FD73DA-EB04-4817-A34F-195B585A573F</key>
 		<array>
 			<dict>
@@ -869,16 +882,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>25EE5925-9D18-41FB-99CA-3E5ADEBCD6D6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -989,6 +992,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F7F8B9BF-067A-4307-A9E2-1F809F1D219E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FBE8DF43-83A7-4E29-A531-7C6DCF9D21C3</key>
 		<array>
 			<dict>
@@ -1056,7 +1072,7 @@
 				<key>items</key>
 				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for URL"},{"title":"Site search","arg":"site-search","subtitle":"Search domain for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEOCSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check site in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for the current domain"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"}]</string>
 				<key>keyword</key>
-				<string>q</string>
+				<string>quix</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -1099,26 +1115,6 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>command</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>678FAF24-3514-4447-9EC4-065C2EBF7A11</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string>Open Classy Schema for $url</string>
 				<key>passthroughargument</key>
 				<false/>
@@ -1138,99 +1134,22 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/info.plist'
-readonly workflow_url='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/Quix.alfredworkflow'
-readonly download_type='direct'
-readonly frequency_check='4'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  local -r notificator="$(find . -type f -name 'notificator')"
-
-  if [[ -f "${notificator}" &amp;&amp; "$(/usr/bin/file --brief --mime-type "${notificator}")" == 'text/x-shellscript' ]]; then
-    "${notificator}" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
-    return
-  fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  # Remote sanity check
-  if ! url_exists "${remote_info_plist}"; then
-    abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."
-  fi
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-  rm "${tmp_file}"
-
-  if [[ "${local_version}" == "${remote_version}" ]]; then
-    touch "${local_info_plist}" # Reset timer by touching local file
-    exit 0
-  fi
-
-  if [[ "${download_type}" == 'page' ]]; then
-    notification 'Opening download page…'
-    open "${workflow_url}"
-    exit 0
-  fi
-
-  readonly download_url="$(
-    if [[ "${download_type}" == 'github_release' ]]; then
-      osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["assets"].find(asset =&gt; asset["browser_download_url"].endsWith(".alfredworkflow"))["browser_download_url"] }' "$(curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest")"
-    else
-      echo "${workflow_url}"
-    fi
-  )"
-
-  if url_exists "${download_url}"; then
-    notification 'Downloading and installing…'
-    readonly download_name="$(basename "${download_url}")"
-    curl --silent --location --output "${HOME}/Downloads/${download_name}" "${download_url}"
-    open "${HOME}/Downloads/${download_name}"
-  else
-    abort "'workflow_url' (${download_url}) appears to not be reachable."
-  fi
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>argument</key>
 				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+			<string>678FAF24-3514-4447-9EC4-065C2EBF7A11</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1682,6 +1601,105 @@ fi</string>
 			<string>0256E4B5-F897-4124-A3B3-4E035AB4B8E6</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/info.plist'
+readonly workflow_url='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/Quix.alfredworkflow'
+readonly download_type='direct'
+readonly frequency_check='1'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type f -name 'notificator')"
+
+  if [[ -f "${notificator}" &amp;&amp; "$(/usr/bin/file --brief --mime-type "${notificator}")" == 'text/x-shellscript' ]]; then
+    "${notificator}" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+echo "Do update check?"
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+	echo "Start update check"
+  # Remote sanity check
+  if ! url_exists "${remote_info_plist}"; then
+    abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."
+  fi
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+  rm "${tmp_file}"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  readonly download_url="$(
+    if [[ "${download_type}" == 'github_release' ]]; then
+      osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["assets"].find(asset =&gt; asset["browser_download_url"].endsWith(".alfredworkflow"))["browser_download_url"] }' "$(curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest")"
+    else
+      echo "${workflow_url}"
+    fi
+  )"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    readonly download_name="$(basename "${download_url}")"
+    curl --silent --location --output "${HOME}/Downloads/${download_name}" "${download_url}"
+    open "${HOME}/Downloads/${download_name}"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2518,9 +2536,20 @@ document.getElementsByClassName('Button--primary')[0].click();
 
 It comes with 3 built-in commands:
 
-- Quix itself, which I always open with `Alt+Q` or by typing `q`
+- Quix itself, which I always open with `Alt+Q` or by typing `quix`
 - Site search, which I always open with `Cmd+Alt+S`, or by typing `site-search`
-- Whois, opened by typing `whois`</string>
+- Whois, opened by typing `whois`
+
+## Changelog
+
+### 2.0
+
+* Made Alfred Quix compatible with AlfredApp V5 workflow builder.
+* Added [OneUpdater](https://www.alfredforum.com/topic/9224-oneupdater-%E2%80%94-update-workflows-with-a-single-node/) so the Workflow can be updated easily.
+
+### 1.0
+
+Initial version.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0256E4B5-F897-4124-A3B3-4E035AB4B8E6</key>
@@ -2658,9 +2687,9 @@ to $url</string>
 			<string>Save command
 to $command</string>
 			<key>xpos</key>
-			<real>365</real>
+			<real>430</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>165</real>
 		</dict>
 		<key>67A8BF74-84B5-44D9-A5D5-ACF201B88E56</key>
 		<dict>
@@ -2781,7 +2810,7 @@ to $command</string>
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>note</key>
-			<string>Set command to 'site-search'</string>
+			<string>Set $command to 'site-search'</string>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
@@ -2894,9 +2923,9 @@ to $command</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<real>2450</real>
+			<real>2805</real>
 			<key>ypos</key>
-			<real>180</real>
+			<real>415</real>
 		</dict>
 		<key>D4D411C5-9C5A-4CE4-91A5-1CB1DD093F55</key>
 		<dict>
@@ -2979,10 +3008,8 @@ to $browser</string>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.3</string>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>
