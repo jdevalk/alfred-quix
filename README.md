@@ -2,7 +2,7 @@
 
 <img src="icon.png" alt="Quix logo" align="right" width="150" height="150">
 
-An Alfred workflow to quickly perform numerous checks on websites.
+An [AlfredApp](https://www.alfredapp.com/) workflow to quickly perform numerous checks on websites.
 
 This workflow pretty much works straight ouf the box!
 
