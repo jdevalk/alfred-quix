@@ -1,4 +1,7 @@
 # Quix AlfredApp workflow
+
+<img src="icon.png" alt="Quix logo" align="right" width="200" height="200">
+
 An Alfred workflow to quickly perform numerous checks on websites.
 
 This workflow pretty much works straight ouf the box!
@@ -8,6 +11,10 @@ It comes with 3 built-in commands:
 - Quix itself, which I always open with `Alt+Q` or by typing `quix`
 - Site search, which I always open with `Cmd+Alt+S`, or by typing `site-search`
 - Whois, opened by typing `whois`
+
+## How to install
+
+Download the [`Quix.alfredworkflow`](https://github.com/jdevalk/alfred-quix/raw/main/Quix.alfredworkflow) file and double click to install it.
 
 ## Changelog
 
