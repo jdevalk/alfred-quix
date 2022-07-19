@@ -537,7 +537,19 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
+				<string>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7DE99062-7FD5-4D6A-96A7-5C8E1F93EF07</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -878,6 +890,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<array>
 			<dict>
@@ -1070,7 +1095,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for URL"},{"title":"Site search","arg":"site-search","subtitle":"Search domain for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEOCSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check site in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for the current domain"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"}]</string>
+				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for URL"},{"title":"Site search","arg":"site-search","subtitle":"Search domain for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEOCSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check site in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for the current domain"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"},{"title":"Schema validator","arg":"schema","subtitle":"Open URL in schema validator"}]</string>
 				<key>keyword</key>
 				<string>quix</string>
 				<key>matchmode</key>
@@ -1115,19 +1140,19 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>Open Classy Schema for $url</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://classyschema.org/Visualisation?url={var:url}</string>
+					<string>https://validator.schema.org/#url={var:url_encoded}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
+			<string>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1148,26 +1173,6 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>678FAF24-3514-4447-9EC4-065C2EBF7A11</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>Check headers for $url</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://httpstatus.io/?url={var:url}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1203,6 +1208,20 @@
 						<string>snippet</string>
 						<key>uid</key>
 						<string>48147F64-8D41-4868-9025-DF6955807DD7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>schema</string>
+						<key>outputlabel</key>
+						<string>schema</string>
+						<key>uid</key>
+						<string>7DE99062-7FD5-4D6A-96A7-5C8E1F93EF07</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -1473,19 +1492,39 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>Open Classy Schema for $url</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://developers.google.com/speed/pagespeed/insights/?url={var:url}</string>
+					<string>https://classyschema.org/Visualisation?url={var:url}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>97F79228-9440-489B-B4D4-FD774B552A72</string>
+			<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Check headers for $url</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://httpstatus.io/?url={var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1494,6 +1533,10 @@
 			<dict>
 				<key>browser</key>
 				<string>com.apple.Safari</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<true/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
@@ -1531,13 +1574,13 @@
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://webcache.googleusercontent.com/search?q=cache:{var:url}</string>
+					<string>https://developers.google.com/speed/pagespeed/insights/?url={var:url}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
+			<string>97F79228-9440-489B-B4D4-FD774B552A72</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1801,19 +1844,19 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>Sistrix Hreflang</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://app.sistrix.com/en/hreflang-validator/%22{var:url}%22</string>
+					<string>https://webcache.googleusercontent.com/search?q=cache:{var:url}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</string>
+			<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1910,6 +1953,10 @@ fi</string>
 			<dict>
 				<key>browser</key>
 				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<true/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
@@ -1926,19 +1973,19 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>Sistrix Hreflang</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://www.linkedin.com/post-inspector/inspect/{var:url_encoded}</string>
+					<string>https://app.sistrix.com/en/hreflang-validator/%22{var:url}%22</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>45D00084-EF65-4136-BFD4-2EF563023ACE</string>
+			<string>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1990,6 +2037,26 @@ fi</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>93E367E1-7AF1-4F81-B3CA-9A7B3687E6D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://www.linkedin.com/post-inspector/inspect/{var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>45D00084-EF65-4136-BFD4-2EF563023ACE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2249,6 +2316,10 @@ style.type = 'text/css';	style.appendChild(document.createTextNode(css));</strin
 			<dict>
 				<key>browser</key>
 				<string>com.apple.Safari</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
@@ -2394,6 +2465,10 @@ document.getElementsByClassName('Button--primary')[0].click();
 			<dict>
 				<key>browser</key>
 				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
@@ -2532,7 +2607,7 @@ document.getElementsByClassName('Button--primary')[0].click();
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow pretty much works straight ouf the box!
+	<string>This workflow pretty much works straight ouf the box, as soon as you *assign the hotkeys*!
 
 It comes with 3 built-in commands:
 
@@ -2541,6 +2616,10 @@ It comes with 3 built-in commands:
 - Whois, opened by typing `whois`
 
 ## Changelog
+
+### 2.0.1
+
+* Some fixes as AlfredApp updated how the automation tasks work slightly.
 
 ### 2.0
 
@@ -2571,7 +2650,7 @@ Initial version.</string>
 			<key>xpos</key>
 			<real>1855</real>
 			<key>ypos</key>
-			<real>1250</real>
+			<real>1355</real>
 		</dict>
 		<key>25EE5925-9D18-41FB-99CA-3E5ADEBCD6D6</key>
 		<dict>
@@ -2594,14 +2673,14 @@ Initial version.</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>695</real>
+			<real>800</real>
 		</dict>
 		<key>2F88D986-4994-4D75-A100-40BB23ECE1CE</key>
 		<dict>
 			<key>xpos</key>
 			<real>2040</real>
 			<key>ypos</key>
-			<real>1265</real>
+			<real>1370</real>
 		</dict>
 		<key>30ABB264-3890-4651-9971-DDD0AD9C9C91</key>
 		<dict>
@@ -2610,7 +2689,7 @@ Initial version.</string>
 			<key>xpos</key>
 			<real>1860</real>
 			<key>ypos</key>
-			<real>105</real>
+			<real>210</real>
 		</dict>
 		<key>3B9D9BC3-395C-48F8-BFE3-DDB37FFD8301</key>
 		<dict>
@@ -2628,14 +2707,14 @@ Initial version.</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>515</real>
+			<real>620</real>
 		</dict>
 		<key>4661112E-6EB9-41E6-B7AE-ED8E4250864F</key>
 		<dict>
 			<key>xpos</key>
 			<real>1695</real>
 			<key>ypos</key>
-			<real>1765</real>
+			<real>1870</real>
 		</dict>
 		<key>481C9EE5-F598-4FBA-93E6-F4C304F39C6B</key>
 		<dict>
@@ -2644,7 +2723,7 @@ Initial version.</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>1045</real>
+			<real>1150</real>
 		</dict>
 		<key>56B7B5B5-2091-49B6-91A9-85308DC0458C</key>
 		<dict>
@@ -2665,7 +2744,7 @@ to $domain</string>
 			<key>xpos</key>
 			<real>2025</real>
 			<key>ypos</key>
-			<real>1710</real>
+			<real>1815</real>
 		</dict>
 		<key>60A6F76B-F5FE-4F50-99E9-74638E0F520A</key>
 		<dict>
@@ -2712,14 +2791,14 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>785</real>
+			<real>890</real>
 		</dict>
 		<key>7734D9B9-1EE4-4BB7-B71E-C52CD632F972</key>
 		<dict>
 			<key>xpos</key>
 			<real>2180</real>
 			<key>ypos</key>
-			<real>1545</real>
+			<real>1650</real>
 		</dict>
 		<key>77BE4DC4-8F79-4881-8FF3-66164BAF1328</key>
 		<dict>
@@ -2735,7 +2814,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>2325</real>
 			<key>ypos</key>
-			<real>1420</real>
+			<real>1525</real>
 		</dict>
 		<key>7C747422-351B-4796-8469-6416F7CCB064</key>
 		<dict>
@@ -2746,7 +2825,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1995</real>
 			<key>ypos</key>
-			<real>1390</real>
+			<real>1495</real>
 		</dict>
 		<key>7EFE807A-6822-48FF-85F9-9FC0C437C2D0</key>
 		<dict>
@@ -2755,7 +2834,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>875</real>
+			<real>980</real>
 		</dict>
 		<key>8215996C-3637-487C-AC32-5554CFFFBB60</key>
 		<dict>
@@ -2771,14 +2850,14 @@ to $command</string>
 			<key>xpos</key>
 			<real>1860</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>290</real>
 		</dict>
 		<key>84BBAF6F-7079-4C63-A145-A039C65479DC</key>
 		<dict>
 			<key>xpos</key>
 			<real>2175</real>
 			<key>ypos</key>
-			<real>1390</real>
+			<real>1495</real>
 		</dict>
 		<key>85A31607-D657-429F-A6BB-1287B55EF8EA</key>
 		<dict>
@@ -2794,7 +2873,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>1135</real>
+			<real>1240</real>
 		</dict>
 		<key>912B5D23-6234-45B2-BE04-C9D73F21D68D</key>
 		<dict>
@@ -2803,7 +2882,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>1070</real>
 		</dict>
 		<key>93E367E1-7AF1-4F81-B3CA-9A7B3687E6D3</key>
 		<dict>
@@ -2823,7 +2902,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>435</real>
+			<real>540</real>
 		</dict>
 		<key>97F79228-9440-489B-B4D4-FD774B552A72</key>
 		<dict>
@@ -2832,7 +2911,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>265</real>
+			<real>370</real>
 		</dict>
 		<key>AD7DE3C9-3FAF-4D82-9213-9FEEB27AAD60</key>
 		<dict>
@@ -2841,14 +2920,14 @@ to $command</string>
 			<key>xpos</key>
 			<real>2030</real>
 			<key>ypos</key>
-			<real>1820</real>
+			<real>1925</real>
 		</dict>
 		<key>AF5BE930-BB65-4F29-9D20-6F25A825420C</key>
 		<dict>
 			<key>xpos</key>
 			<real>2410</real>
 			<key>ypos</key>
-			<real>1545</real>
+			<real>1650</real>
 		</dict>
 		<key>AF7E0F0F-EF97-4031-99EE-8D261DD43FCB</key>
 		<dict>
@@ -2871,7 +2950,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>2325</real>
 			<key>ypos</key>
-			<real>1575</real>
+			<real>1680</real>
 		</dict>
 		<key>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</key>
 		<dict>
@@ -2880,7 +2959,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1860</real>
 			<key>ypos</key>
-			<real>25</real>
+			<real>55</real>
 		</dict>
 		<key>B7C303E1-02A4-45EE-AB7C-CE852C201B9D</key>
 		<dict>
@@ -2891,7 +2970,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1995</real>
 			<key>ypos</key>
-			<real>1545</real>
+			<real>1650</real>
 		</dict>
 		<key>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</key>
 		<dict>
@@ -2900,14 +2979,23 @@ to $command</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>350</real>
+			<real>455</real>
 		</dict>
 		<key>CA4233CA-B436-4B63-B4B7-2875B7B6FCE4</key>
 		<dict>
 			<key>xpos</key>
 			<real>1775</real>
 			<key>ypos</key>
-			<real>1510</real>
+			<real>1615</real>
+		</dict>
+		<key>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</key>
+		<dict>
+			<key>note</key>
+			<string>Schema validator</string>
+			<key>xpos</key>
+			<real>1860</real>
+			<key>ypos</key>
+			<real>130</real>
 		</dict>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<dict>
@@ -2932,7 +3020,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1860</real>
 			<key>ypos</key>
-			<real>1485</real>
+			<real>1590</real>
 		</dict>
 		<key>D847FD55-FEE0-4B86-8212-429B2F9AA63D</key>
 		<dict>
@@ -2941,7 +3029,7 @@ to $command</string>
 			<key>xpos</key>
 			<real>1685</real>
 			<key>ypos</key>
-			<real>1105</real>
+			<real>1210</real>
 		</dict>
 		<key>E6600FC3-50B6-49B2-8E3C-18831A0492AA</key>
 		<dict>
@@ -2960,14 +3048,14 @@ to $browser</string>
 			<key>xpos</key>
 			<real>2405</real>
 			<key>ypos</key>
-			<real>1390</real>
+			<real>1495</real>
 		</dict>
 		<key>F0786958-8019-4D6B-B368-A08D4920E112</key>
 		<dict>
 			<key>xpos</key>
 			<real>1855</real>
 			<key>ypos</key>
-			<real>1785</real>
+			<real>1890</real>
 		</dict>
 		<key>F19619A8-D7A6-42EE-B694-6120AD4705BC</key>
 		<dict>
@@ -2976,7 +3064,7 @@ to $browser</string>
 			<key>xpos</key>
 			<real>1865</real>
 			<key>ypos</key>
-			<real>605</real>
+			<real>710</real>
 		</dict>
 		<key>F7F8B9BF-067A-4307-A9E2-1F809F1D219E</key>
 		<dict>
@@ -3003,13 +3091,15 @@ to $browser</string>
 			<key>xpos</key>
 			<real>2045</real>
 			<key>ypos</key>
-			<real>1140</real>
+			<real>1245</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.0.1</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>
