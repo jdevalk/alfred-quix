@@ -44,6 +44,18 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>67A8BF74-84B5-44D9-A5D5-ACF201B88E56</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F4B7778B-04FE-4A9E-BBEA-E8EE5A87E2D0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>1517154D-5872-42E0-A953-C68D485289F3</key>
 		<array>
@@ -94,6 +106,18 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F88D986-4994-4D75-A100-40BB23ECE1CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>156430ED-8929-4349-BBB3-16FA7799AAF0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>25EE5925-9D18-41FB-99CA-3E5ADEBCD6D6</key>
 		<array>
@@ -106,6 +130,18 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>8502B9AF-DCFB-425A-A6DF-6C1F719D6AD3</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6A8101E-D602-4BCB-BFE4-3E1A402DDDEB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>805AD246-9C8A-4C81-9F78-D7E7BC6B71D3</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -496,6 +532,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9F736E92-9311-42EB-AD5C-3C90AC2A7C8D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7734D9B9-1EE4-4BB7-B71E-C52CD632F972</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>AD7DE3C9-3FAF-4D82-9213-9FEEB27AAD60</key>
 		<array>
 			<dict>
@@ -765,6 +814,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>4661112E-6EB9-41E6-B7AE-ED8E4250864F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D4EE0117-7D8A-42D8-A74B-2783593FF9EC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>25D62694-3EB1-485D-97A6-D1A493DC4E1D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -796,18 +857,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>B9DD1E9C-0801-4929-869D-7BE05BB44036</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>4661112E-6EB9-41E6-B7AE-ED8E4250864F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>D4EE0117-7D8A-42D8-A74B-2783593FF9EC</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -932,6 +981,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>9F736E92-9311-42EB-AD5C-3C90AC2A7C8D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3FC6D926-C7E4-4578-A937-02187CDD1854</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>B7C303E1-02A4-45EE-AB7C-CE852C201B9D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -945,6 +1006,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B7C303E1-02A4-45EE-AB7C-CE852C201B9D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6A8101E-D602-4BCB-BFE4-3E1A402DDDEB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1413,20 +1487,6 @@
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>seocss</string>
-						<key>outputlabel</key>
-						<string>seocss</string>
-						<key>uid</key>
-						<string>31449D57-D34A-4BB7-9EF0-4CFF9E0B2665</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:command}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
 						<string>site-search</string>
 						<key>outputlabel</key>
 						<string>site-search</string>
@@ -1441,11 +1501,25 @@
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>twitter</string>
+						<string>whois</string>
 						<key>outputlabel</key>
-						<string>twitter</string>
+						<string>whois</string>
 						<key>uid</key>
-						<string>B432B53B-D4E2-4F1E-978E-981F5AE8F0AF</string>
+						<string>D4EE0117-7D8A-42D8-A74B-2783593FF9EC</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>seocss</string>
+						<key>outputlabel</key>
+						<string>seocss</string>
+						<key>uid</key>
+						<string>31449D57-D34A-4BB7-9EF0-4CFF9E0B2665</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -1469,11 +1543,11 @@
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>whois</string>
+						<string>twitter</string>
 						<key>outputlabel</key>
-						<string>whois</string>
+						<string>twitter</string>
 						<key>uid</key>
-						<string>D4EE0117-7D8A-42D8-A74B-2783593FF9EC</string>
+						<string>B432B53B-D4E2-4F1E-978E-981F5AE8F0AF</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
@@ -1631,6 +1705,20 @@
 						<string>Chrome</string>
 						<key>uid</key>
 						<string>4B972BE7-B5DE-493F-AB86-B5C44FD6B1F7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Brave Browser</string>
+						<key>outputlabel</key>
+						<string>Brave</string>
+						<key>uid</key>
+						<string>F4B7778B-04FE-4A9E-BBEA-E8EE5A87E2D0</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
@@ -1806,6 +1894,20 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
+						<string>Brave Browser</string>
+						<key>outputlabel</key>
+						<string>Brave</string>
+						<key>uid</key>
+						<string>805AD246-9C8A-4C81-9F78-D7E7BC6B71D3</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
 						<string>Google Chrome</string>
 						<key>outputlabel</key>
 						<string>Chrome</string>
@@ -1952,7 +2054,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>com.google.Chrome</string>
+				<string>com.brave.Browser</string>
 				<key>skipqueryencode</key>
 				<false/>
 				<key>skipvarencode</key>
@@ -1965,7 +2067,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F7F8B9BF-067A-4307-A9E2-1F809F1D219E</string>
+			<string>D6A8101E-D602-4BCB-BFE4-3E1A402DDDEB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2019,6 +2121,27 @@ fi</string>
 			<string>85A31607-D657-429F-A6BB-1287B55EF8EA</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<true/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:url_to_open}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F7F8B9BF-067A-4307-A9E2-1F809F1D219E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2224,6 +2347,99 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://whois.domaintools.com/{var:domain}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5AE9F6DF-C034-4806-87CC-4DCED30CF014</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>whois</string>
+				<key>subtext</key>
+				<string>Enter to use {var:domain}</string>
+				<key>text</key>
+				<string>Type domain or use {var:domain}?</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4661112E-6EB9-41E6-B7AE-ED8E4250864F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Lookup $domain</string>
+						<key>uid</key>
+						<string>415A18E1-E805-414A-B64D-8BD81A6999A7</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Lookup $query</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F0786958-8019-4D6B-B368-A08D4920E112</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://whois.domaintools.com/{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AD7DE3C9-3FAF-4D82-9213-9FEEB27AAD60</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>tasksettings</key>
 				<dict>
 					<key>javascript_code</key>
@@ -2276,6 +2492,20 @@ style.type = 'text/css';	style.appendChild(document.createTextNode(css));</strin
 						<key>uid</key>
 						<string>4B972BE7-B5DE-493F-AB86-B5C44FD6B1F7</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Brave Browser</string>
+						<key>outputlabel</key>
+						<string>Brave</string>
+						<key>uid</key>
+						<string>156430ED-8929-4349-BBB3-16FA7799AAF0</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -2294,12 +2524,16 @@ style.type = 'text/css';	style.appendChild(document.createTextNode(css));</strin
 			<dict>
 				<key>tasksettings</key>
 				<dict>
+					<key>custom_browser</key>
+					<string>{var:browser}</string>
 					<key>javascript_code</key>
 					<string>var head = document.head || document.getElementsByTagName('head')[0];
 var style=document.createElement('style');
 head.appendChild(style);
 var css = "h1:after,h1:before,h2:after,h2:before,h3:after,h3:before,h4:after,h4:before,h5:after,h5:before{color:red;background-color:#fff;font-size:14px}h1:before{content:'&lt;h1&gt;'}h1:after{content:'&lt;/h1&gt;'}h2:before{content:'&lt;h2&gt;'}h2:after{content:'&lt;/h2&gt;'}h3:before{content:'&lt;h3&gt;'}h3:after{content:'&lt;/h3&gt;'}h4:before{content:'&lt;h4&gt;'}h4:after{content:'&lt;/h4&gt;'}h5:before{content:'&lt;h5&gt;'}h5:after{content:'&lt;/h5&gt;'}a:after,a:before{color:#00f!important;text-decoration:underline!important;background-color:#fff!important}a:before{content:'&lt;a&gt;'}a:after{content:'&lt;/a&gt;'}a[rel~=nofollow]{background-color:pink!important;color:#000!important}a[rel~=nofollow]:after,a[rel~=nofollow]:before{color:pink!important;text-decoration:line-through!important}";
 style.type = 'text/css';	style.appendChild(document.createTextNode(css));</string>
+					<key>popup_browser</key>
+					<string>custom</string>
 				</dict>
 				<key>taskuid</key>
 				<string>com.alfredapp.automation.extras/web-browsers/chromium-browsers/chromium.tabs.current.run.javascript</string>
@@ -2411,6 +2645,20 @@ document.getElementsByClassName('Button--primary')[0].click();</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
+						<string>Brave Browser</string>
+						<key>outputlabel</key>
+						<string>Brave</string>
+						<key>uid</key>
+						<string>3FC6D926-C7E4-4578-A937-02187CDD1854</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:browser}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
 						<string>Google Chrome</string>
 						<key>outputlabel</key>
 						<string>Chrome</string>
@@ -2441,14 +2689,39 @@ document.getElementsByClassName('Button--primary')[0].click();</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string>com.brave.Browser</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://cards-dev.twitter.com/validator?url={var:url}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9F736E92-9311-42EB-AD5C-3C90AC2A7C8D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>tasksettings</key>
 				<dict>
+					<key>custom_browser</key>
+					<string>{var:browser}</string>
 					<key>javascript_code</key>
 					<string>const urlParams = new URLSearchParams(window.location.search);
 const url = urlParams.get('url');
 document.getElementsByClassName('FormControl')[0].value = url;
 document.getElementsByClassName('Button--primary')[0].click();
 </string>
+					<key>popup_browser</key>
+					<string>custom</string>
 				</dict>
 				<key>taskuid</key>
 				<string>com.alfredapp.automation.extras/web-browsers/chromium-browsers/chromium.tabs.current.run.javascript</string>
@@ -2463,31 +2736,14 @@ document.getElementsByClassName('Button--primary')[0].click();
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://cards-dev.twitter.com/validator?url={var:url}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>B7C303E1-02A4-45EE-AB7C-CE852C201B9D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>tasksettings</key>
 				<dict>
+					<key>custom_browser</key>
+					<string>{var:browser}</string>
 					<key>match_string</key>
 					<string>https://cards-dev.twitter.com/validator</string>
+					<key>popup_browser</key>
+					<string>custom</string>
 				</dict>
 				<key>taskuid</key>
 				<string>com.alfredapp.automation.extras/web-browsers/chromium-browsers/chromium.tabs.matching.activate</string>
@@ -2515,93 +2771,21 @@ document.getElementsByClassName('Button--primary')[0].click();
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
 				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://whois.domaintools.com/{var:domain}</string>
-				</dict>
+				<key>url</key>
+				<string>https://cards-dev.twitter.com/validator?url={var:url}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>5AE9F6DF-C034-4806-87CC-4DCED30CF014</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>whois</string>
-				<key>subtext</key>
-				<string>Enter to use {var:domain}</string>
-				<key>text</key>
-				<string>Type domain or use {var:domain}?</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4661112E-6EB9-41E6-B7AE-ED8E4250864F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{query}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Lookup $domain</string>
-						<key>uid</key>
-						<string>415A18E1-E805-414A-B64D-8BD81A6999A7</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Lookup $query</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>F0786958-8019-4D6B-B368-A08D4920E112</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://whois.domaintools.com/{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>AD7DE3C9-3FAF-4D82-9213-9FEEB27AAD60</string>
+			<string>B7C303E1-02A4-45EE-AB7C-CE852C201B9D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2616,6 +2800,10 @@ It comes with 3 built-in commands:
 - Whois, opened by typing `whois`
 
 ## Changelog
+
+### 2.1
+
+* Added support for Brave Browser.
 
 ### 2.0.1
 
@@ -2648,9 +2836,9 @@ Initial version.</string>
 		<key>25D62694-3EB1-485D-97A6-D1A493DC4E1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>1855</real>
+			<real>1860</real>
 			<key>ypos</key>
-			<real>1355</real>
+			<real>1600</real>
 		</dict>
 		<key>25EE5925-9D18-41FB-99CA-3E5ADEBCD6D6</key>
 		<dict>
@@ -2678,9 +2866,9 @@ Initial version.</string>
 		<key>2F88D986-4994-4D75-A100-40BB23ECE1CE</key>
 		<dict>
 			<key>xpos</key>
-			<real>2040</real>
+			<real>1975</real>
 			<key>ypos</key>
-			<real>1370</real>
+			<real>1665</real>
 		</dict>
 		<key>30ABB264-3890-4651-9971-DDD0AD9C9C91</key>
 		<dict>
@@ -2712,9 +2900,9 @@ Initial version.</string>
 		<key>4661112E-6EB9-41E6-B7AE-ED8E4250864F</key>
 		<dict>
 			<key>xpos</key>
-			<real>1695</real>
+			<real>1825</real>
 			<key>ypos</key>
-			<real>1870</real>
+			<real>1405</real>
 		</dict>
 		<key>481C9EE5-F598-4FBA-93E6-F4C304F39C6B</key>
 		<dict>
@@ -2742,9 +2930,9 @@ to $domain</string>
 			<key>note</key>
 			<string>Domaintools Whois $domain</string>
 			<key>xpos</key>
-			<real>2025</real>
+			<real>2180</real>
 			<key>ypos</key>
-			<real>1815</real>
+			<real>1365</real>
 		</dict>
 		<key>60A6F76B-F5FE-4F50-99E9-74638E0F520A</key>
 		<dict>
@@ -2796,9 +2984,9 @@ to $command</string>
 		<key>7734D9B9-1EE4-4BB7-B71E-C52CD632F972</key>
 		<dict>
 			<key>xpos</key>
-			<real>2180</real>
+			<real>2170</real>
 			<key>ypos</key>
-			<real>1650</real>
+			<real>1945</real>
 		</dict>
 		<key>77BE4DC4-8F79-4881-8FF3-66164BAF1328</key>
 		<dict>
@@ -2812,9 +3000,9 @@ to $command</string>
 		<key>79FD73DA-EB04-4817-A34F-195B585A573F</key>
 		<dict>
 			<key>xpos</key>
-			<real>2325</real>
+			<real>2315</real>
 			<key>ypos</key>
-			<real>1525</real>
+			<real>1820</real>
 		</dict>
 		<key>7C747422-351B-4796-8469-6416F7CCB064</key>
 		<dict>
@@ -2823,9 +3011,9 @@ to $command</string>
 			<key>note</key>
 			<string>Open Twitter card validator</string>
 			<key>xpos</key>
-			<real>1995</real>
+			<real>1985</real>
 			<key>ypos</key>
-			<real>1495</real>
+			<real>1790</real>
 		</dict>
 		<key>7EFE807A-6822-48FF-85F9-9FC0C437C2D0</key>
 		<dict>
@@ -2855,9 +3043,9 @@ to $command</string>
 		<key>84BBAF6F-7079-4C63-A145-A039C65479DC</key>
 		<dict>
 			<key>xpos</key>
-			<real>2175</real>
+			<real>2165</real>
 			<key>ypos</key>
-			<real>1495</real>
+			<real>1790</real>
 		</dict>
 		<key>85A31607-D657-429F-A6BB-1287B55EF8EA</key>
 		<dict>
@@ -2871,9 +3059,9 @@ to $command</string>
 			<key>note</key>
 			<string>Site search $domain for $query</string>
 			<key>xpos</key>
-			<real>1865</real>
+			<real>2005</real>
 			<key>ypos</key>
-			<real>1240</real>
+			<real>1270</real>
 		</dict>
 		<key>912B5D23-6234-45B2-BE04-C9D73F21D68D</key>
 		<dict>
@@ -2913,21 +3101,32 @@ to $command</string>
 			<key>ypos</key>
 			<real>370</real>
 		</dict>
+		<key>9F736E92-9311-42EB-AD5C-3C90AC2A7C8D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Open Twitter card validator</string>
+			<key>xpos</key>
+			<real>1985</real>
+			<key>ypos</key>
+			<real>1940</real>
+		</dict>
 		<key>AD7DE3C9-3FAF-4D82-9213-9FEEB27AAD60</key>
 		<dict>
 			<key>note</key>
 			<string>Domaintools Whois $query</string>
 			<key>xpos</key>
-			<real>2030</real>
+			<real>2180</real>
 			<key>ypos</key>
-			<real>1925</real>
+			<real>1460</real>
 		</dict>
 		<key>AF5BE930-BB65-4F29-9D20-6F25A825420C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2410</real>
+			<real>2400</real>
 			<key>ypos</key>
-			<real>1650</real>
+			<real>1945</real>
 		</dict>
 		<key>AF7E0F0F-EF97-4031-99EE-8D261DD43FCB</key>
 		<dict>
@@ -2948,9 +3147,9 @@ to $command</string>
 		<key>B343DB6E-1AAB-494F-A8A7-A289B6EA4AF1</key>
 		<dict>
 			<key>xpos</key>
-			<real>2325</real>
+			<real>2315</real>
 			<key>ypos</key>
-			<real>1680</real>
+			<real>1975</real>
 		</dict>
 		<key>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</key>
 		<dict>
@@ -2968,9 +3167,9 @@ to $command</string>
 			<key>note</key>
 			<string>Open Twitter card validator</string>
 			<key>xpos</key>
-			<real>1995</real>
+			<real>1985</real>
 			<key>ypos</key>
-			<real>1650</real>
+			<real>2090</real>
 		</dict>
 		<key>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</key>
 		<dict>
@@ -2984,9 +3183,9 @@ to $command</string>
 		<key>CA4233CA-B436-4B63-B4B7-2875B7B6FCE4</key>
 		<dict>
 			<key>xpos</key>
-			<real>1775</real>
+			<real>1765</real>
 			<key>ypos</key>
-			<real>1615</real>
+			<real>1910</real>
 		</dict>
 		<key>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</key>
 		<dict>
@@ -3018,18 +3217,27 @@ to $command</string>
 		<key>D4D411C5-9C5A-4CE4-91A5-1CB1DD093F55</key>
 		<dict>
 			<key>xpos</key>
-			<real>1860</real>
+			<real>1850</real>
 			<key>ypos</key>
-			<real>1590</real>
+			<real>1885</real>
+		</dict>
+		<key>D6A8101E-D602-4BCB-BFE4-3E1A402DDDEB</key>
+		<dict>
+			<key>note</key>
+			<string>Open $url_to_open</string>
+			<key>xpos</key>
+			<real>2615</real>
+			<key>ypos</key>
+			<real>465</real>
 		</dict>
 		<key>D847FD55-FEE0-4B86-8212-429B2F9AA63D</key>
 		<dict>
 			<key>note</key>
 			<string>Ask for keyword to search for</string>
 			<key>xpos</key>
-			<real>1685</real>
+			<real>1825</real>
 			<key>ypos</key>
-			<real>1210</real>
+			<real>1240</real>
 		</dict>
 		<key>E6600FC3-50B6-49B2-8E3C-18831A0492AA</key>
 		<dict>
@@ -3046,16 +3254,16 @@ to $browser</string>
 		<key>EFBF769C-301A-4F80-AED7-58FE0B9FE530</key>
 		<dict>
 			<key>xpos</key>
-			<real>2405</real>
+			<real>2395</real>
 			<key>ypos</key>
-			<real>1495</real>
+			<real>1790</real>
 		</dict>
 		<key>F0786958-8019-4D6B-B368-A08D4920E112</key>
 		<dict>
 			<key>xpos</key>
-			<real>1855</real>
+			<real>1985</real>
 			<key>ypos</key>
-			<real>1890</real>
+			<real>1425</real>
 		</dict>
 		<key>F19619A8-D7A6-42EE-B694-6120AD4705BC</key>
 		<dict>
@@ -3073,7 +3281,7 @@ to $browser</string>
 			<key>xpos</key>
 			<real>2615</real>
 			<key>ypos</key>
-			<real>490</real>
+			<real>600</real>
 		</dict>
 		<key>FBE8DF43-83A7-4E29-A531-7C6DCF9D21C3</key>
 		<dict>
@@ -3089,9 +3297,9 @@ to $browser</string>
 		<key>FD20FF69-F774-4C9A-9911-435C0284FDF1</key>
 		<dict>
 			<key>xpos</key>
-			<real>2045</real>
+			<real>1975</real>
 			<key>ypos</key>
-			<real>1245</real>
+			<real>1545</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -3099,7 +3307,7 @@ to $browser</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.0.1</string>
+	<string>2.1</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>
