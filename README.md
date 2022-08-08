@@ -28,6 +28,18 @@ Download the [`Quix.alfredworkflow`](https://github.com/jdevalk/alfred-quix/raw/
 
 ## Changelog
 
+### 3.0
+
+* **Major browser support improvements**: added support for Firefox, Firefox developer edition, Chrome Canary Safari Technology Preview, Brave Beta and Vivaldi.
+* Added a user config option to select a default browser, for cases when you open Quix from outside a browser.
+* Added an "is this site down for everyone" command
+* Added a "who hosts this site" command.
+* Re-built much of the workflow to work a bit more intuitive.
+
+### 2.1
+
+* Added support for Brave Browser.
+
 ### 2.0.1
 
 * Some fixes as AlfredApp updated how the automation tasks work slightly.
