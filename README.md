@@ -28,6 +28,10 @@ Download the [`Quix.alfredworkflow`](https://github.com/jdevalk/alfred-quix/raw/
 
 ## Changelog
 
+### 3.1
+
+* Added support for archive.org with two new commands to access Archive.org, one for the page and one for the whole site as well as a third: _save_ this page in Archive.org.
+
 ### 3.0
 
 * **Major browser support improvements**: added support for Firefox, Firefox developer edition, Chrome Canary Safari Technology Preview, Brave Beta and Vivaldi.

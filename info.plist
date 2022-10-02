@@ -352,6 +352,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>48AF63C5-06D5-4548-AD66-95BC33F54916</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4ED756AF-AE52-40A6-AD65-9BEA324086E2</key>
 		<array>
 			<dict>
@@ -573,6 +586,19 @@
 			</dict>
 		</array>
 		<key>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>83FE3223-628B-49BB-9B86-5C38F2DE8287</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -830,6 +856,42 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>48AF63C5-06D5-4548-AD66-95BC33F54916</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FE92B319-AEEE-4D55-9D32-C97A89930843</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>83FE3223-628B-49BB-9B86-5C38F2DE8287</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9DA9C42B-9A70-4AD4-BC10-7294B6907311</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0146586-FD15-478A-9FF8-E95F40845FA4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>07E74466-65C3-44F3-A46E-08896CAE00DB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -938,6 +1000,16 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>65FFB943-B758-4EB2-B4DD-999E964B81E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>28DED6E8-14E4-482C-B731-C19CA1AA20DF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -1010,16 +1082,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>65FFB943-B758-4EB2-B4DD-999E964B81E8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>5AE9F6DF-C034-4806-87CC-4DCED30CF014</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -1087,6 +1149,19 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>B432B53B-D4E2-4F1E-978E-981F5AE8F0AF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0146586-FD15-478A-9FF8-E95F40845FA4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1436,26 +1511,6 @@
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>url_to_open</key>
-					<string>https://search.google.com/test/rich-results?url={var:url}&amp;user_agent=1</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
 					<key>browser</key>
 					<string>Firefox</string>
 					<key>platform</key>
@@ -1466,26 +1521,6 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>F1C2B120-7926-4546-B3BD-9806685E021A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://validator.schema.org/#url={var:url_encoded}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1654,26 +1689,6 @@ return the_url as text</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>Open Classy Schema for $url</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://classyschema.org/Visualisation?url={var:url}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
 				<false/>
@@ -1696,70 +1711,19 @@ return the_url as text</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>Check headers for $url</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://httpstatus.io/?url={var:url}</string>
+					<string>https://search.google.com/test/rich-results?url={var:url}&amp;user_agent=1</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>12</integer>
-				<key>hotmod</key>
-				<integer>524288</integer>
-				<key>hotstring</key>
-				<string>Q</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>27399DD9-E030-47E7-BD8D-D898FA1E7874</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>custom_browser</key>
-					<string>{var:browser}</string>
-					<key>popup_browser</key>
-					<string>custom</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.extras/web-browsers/webkit-browsers/webkit.tabs.current</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>BF01B771-F4D6-4EC1-BA17-926885E2FF74</string>
+			<string>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1823,6 +1787,48 @@ return the_url as text</string>
 						<string>classy</string>
 						<key>uid</key>
 						<string>9F4C5391-B80A-459D-8BCC-8F249A27E3DA</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>archive-page</string>
+						<key>outputlabel</key>
+						<string>archive-page</string>
+						<key>uid</key>
+						<string>FE92B319-AEEE-4D55-9D32-C97A89930843</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>archive-save</string>
+						<key>outputlabel</key>
+						<string>archive-save</string>
+						<key>uid</key>
+						<string>9DA9C42B-9A70-4AD4-BC10-7294B6907311</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>archive</string>
+						<key>outputlabel</key>
+						<string>archive-site</string>
+						<key>uid</key>
+						<string>07E74466-65C3-44F3-A46E-08896CAE00DB</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -2106,6 +2112,77 @@ return the_url as text</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>12</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>Q</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>27399DD9-E030-47E7-BD8D-D898FA1E7874</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>custom_browser</key>
+					<string>{var:browser}</string>
+					<key>popup_browser</key>
+					<string>custom</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/webkit-browsers/webkit.tabs.current</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>BF01B771-F4D6-4EC1-BA17-926885E2FF74</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://validator.schema.org/#url={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -2127,19 +2204,19 @@ return the_url as text</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>Open Classy Schema for $url</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://developers.google.com/speed/pagespeed/insights/?url={var:url}</string>
+					<string>https://classyschema.org/Visualisation?url={var:url}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>97F79228-9440-489B-B4D4-FD774B552A72</string>
+			<string>30ABB264-3890-4651-9971-DDD0AD9C9C91</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2307,26 +2384,6 @@ return the_url as text</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://webcache.googleusercontent.com/search?q=cache:{var:url}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string>{var:url}</string>
 				<key>passthroughargument</key>
 				<false/>
@@ -2447,32 +2504,6 @@ return the_url as text</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>tell application (system attribute "browser") to activate
-tell application (system attribute "browser")
-	open location (system attribute "url_to_open")
-end tell</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DE5A0DA7-8674-43AE-BAD3-5F5FFBD17AE9</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -2493,6 +2524,26 @@ end tell</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>Open Archive.org for $url</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://web.archive.org/web/*/{var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>48AF63C5-06D5-4548-AD66-95BC33F54916</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>tasksettings</key>
 				<dict/>
 				<key>taskuid</key>
@@ -2502,14 +2553,6 @@ end tell</string>
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>1517154D-5872-42E0-A953-C68D485289F3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2543,7 +2586,7 @@ end tell</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for {var:url}"},{"title":"Site search","arg":"site-search","subtitle":"Search {var:domain} for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEO CSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check URL in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for {var:domain}"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"},{"title":"Schema validator","arg":"schema","subtitle":"Open URL in schema validator"},{"title":"Is this site down?","arg":"issitedown","subtitle":"Or is it just me?"},{"title":"Who hosts {var:domain}?","arg":"whohosts"}]</string>
+				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for {var:url}"},{"title":"Site search","arg":"site-search","subtitle":"Search {var:domain} for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEO CSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check URL in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for {var:domain}"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"},{"title":"Schema validator","arg":"schema","subtitle":"Open URL in schema validator"},{"title":"Is this site down?","arg":"issitedown","subtitle":"Or is it just me?"},{"title":"Who hosts {var:domain}?","arg":"whohosts"},{"title":"Archive for page","arg":"archive-page","subtitle":"Open page in archive.org"},{"title":"Archive for site","arg":"archive-site","subtitle":"Open the site in archive.org"},{"title":"Save page on Archive.org","arg":"archive-save","subtitle":"Saves the current page on archive.org"}]</string>
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
@@ -2566,26 +2609,6 @@ end tell</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>Sistrix Hreflang</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://app.sistrix.com/en/hreflang-validator/%22{var:url}%22</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
 				<false/>
@@ -2599,6 +2622,26 @@ end tell</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>678FAF24-3514-4447-9EC4-065C2EBF7A11</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Open Archive.org for $url</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://web.archive.org/save/{var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>83FE3223-628B-49BB-9B86-5C38F2DE8287</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2632,26 +2675,6 @@ end tell</string>
 			<string>85A31607-D657-429F-A6BB-1287B55EF8EA</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://www.linkedin.com/post-inspector/inspect/{var:url_encoded}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>45D00084-EF65-4136-BFD4-2EF563023ACE</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2737,19 +2760,39 @@ end tell</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>Open Archive.org for $url</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://developers.facebook.com/tools/debug/?q={var:url}</string>
+					<string>https://web.archive.org/web/*/{var:url}*</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>F19619A8-D7A6-42EE-B694-6120AD4705BC</string>
+			<string>B0146586-FD15-478A-9FF8-E95F40845FA4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Check headers for $url</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://httpstatus.io/?url={var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2830,26 +2873,6 @@ end tell</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://developers.pinterest.com/tools/url-debugger/?link={var:url_encoded}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>28DED6E8-14E4-482C-B731-C19CA1AA20DF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
 				<false/>
@@ -2865,6 +2888,181 @@ end tell</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>E59A00FD-D086-4F71-8E7F-CA5DBA34B944</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://developers.google.com/speed/pagespeed/insights/?url={var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>97F79228-9440-489B-B4D4-FD774B552A72</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://webcache.googleusercontent.com/search?q=cache:{var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application (system attribute "browser")
+	activate
+	open location (system attribute "url_to_open")
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DE5A0DA7-8674-43AE-BAD3-5F5FFBD17AE9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>Sistrix Hreflang</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://app.sistrix.com/en/hreflang-validator/%22{var:url}%22</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://www.linkedin.com/post-inspector/inspect/{var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>45D00084-EF65-4136-BFD4-2EF563023ACE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://developers.facebook.com/tools/debug/?q={var:url}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>F19619A8-D7A6-42EE-B694-6120AD4705BC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{var:command} has no action</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>65FFB943-B758-4EB2-B4DD-999E964B81E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://developers.pinterest.com/tools/url-debugger/?link={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>28DED6E8-14E4-482C-B731-C19CA1AA20DF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2945,27 +3143,6 @@ end tell</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>481C9EE5-F598-4FBA-93E6-F4C304F39C6B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>{var:command} has no action</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>65FFB943-B758-4EB2-B4DD-999E964B81E8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3422,8 +3599,8 @@ end tell</string>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>tell application (system attribute "browser") to activate
-tell application (system attribute "browser")
+				<string>tell application (system attribute "browser")
+	activate
 	open location (system attribute "url_to_open")
 end tell</string>
 				<key>scriptargtype</key>
@@ -3604,6 +3781,10 @@ It comes with 3 built-in commands:
 
 ## Changelog
 
+### 3.1
+
+* Added support for archive.org with two new commands to access Archive.org, one for the page and one for the whole site as well as a third: _save_ this page in Archive.org.
+
 ### 3.0
 
 * **Major browser support improvements**: added support for Firefox, Firefox developer edition, Chrome Canary Safari Technology Preview, Brave Beta and Vivaldi.
@@ -3640,9 +3821,9 @@ Initial version.</string>
 		<key>06E52071-FB47-453E-929D-C5A64D84B3A5</key>
 		<dict>
 			<key>xpos</key>
-			<real>3820</real>
+			<real>3890</real>
 			<key>ypos</key>
-			<real>2115</real>
+			<real>2565</real>
 		</dict>
 		<key>0980DD77-8F51-419A-8E79-CA65A5D4E063</key>
 		<dict>
@@ -3684,9 +3865,9 @@ to $platform</string>
 		<key>25D62694-3EB1-485D-97A6-D1A493DC4E1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>3045</real>
+			<real>3115</real>
 			<key>ypos</key>
-			<real>1750</real>
+			<real>2200</real>
 		</dict>
 		<key>26EE7FF4-E838-48A7-870A-B5A928285D64</key>
 		<dict>
@@ -3720,27 +3901,27 @@ to $platform</string>
 			<key>note</key>
 			<string>Pinterest rich pin validator</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>1220</real>
 		</dict>
 		<key>2F88D986-4994-4D75-A100-40BB23ECE1CE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3180</real>
+			<real>3250</real>
 			<key>ypos</key>
-			<real>1745</real>
+			<real>2195</real>
 		</dict>
 		<key>30ABB264-3890-4651-9971-DDD0AD9C9C91</key>
 		<dict>
 			<key>note</key>
 			<string>Classy Schema</string>
 			<key>xpos</key>
-			<real>3145</real>
+			<real>3215</real>
 			<key>ypos</key>
-			<real>180</real>
+			<real>380</real>
 		</dict>
 		<key>3B9D9BC3-395C-48F8-BFE3-DDB37FFD8301</key>
 		<dict>
@@ -3756,25 +3937,34 @@ to $platform</string>
 			<key>note</key>
 			<string>LinkedIn Post inspector</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>1040</real>
 		</dict>
 		<key>481C9EE5-F598-4FBA-93E6-F4C304F39C6B</key>
 		<dict>
 			<key>note</key>
 			<string>Google Search Console</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>1120</real>
+			<real>1570</real>
+		</dict>
+		<key>48AF63C5-06D5-4548-AD66-95BC33F54916</key>
+		<dict>
+			<key>note</key>
+			<string>Archive.org for page</string>
+			<key>xpos</key>
+			<real>3215</real>
+			<key>ypos</key>
+			<real>460</real>
 		</dict>
 		<key>4ED756AF-AE52-40A6-AD65-9BEA324086E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>3030</real>
+			<real>3100</real>
 			<key>ypos</key>
-			<real>2060</real>
+			<real>2510</real>
 		</dict>
 		<key>504FD885-DA7B-44EE-9D46-0E8282BE70D1</key>
 		<dict>
@@ -3796,9 +3986,9 @@ to $protocol</string>
 		<key>52A93C7B-7E6F-4CB7-BB5D-473B4B51CC95</key>
 		<dict>
 			<key>xpos</key>
-			<real>3400</real>
+			<real>3470</real>
 			<key>ypos</key>
-			<real>1775</real>
+			<real>2225</real>
 		</dict>
 		<key>56B7B5B5-2091-49B6-91A9-85308DC0458C</key>
 		<dict>
@@ -3815,9 +4005,9 @@ to $domain</string>
 			<key>note</key>
 			<string>Domaintools Whois $domain</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>1210</real>
+			<real>1660</real>
 		</dict>
 		<key>5E03C817-8FEB-41BC-B3E6-7277B074649C</key>
 		<dict>
@@ -3843,9 +4033,9 @@ to $url</string>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>2795</real>
+			<real>2815</real>
 			<key>ypos</key>
-			<real>1125</real>
+			<real>1150</real>
 		</dict>
 		<key>66D34A6A-02BC-42E2-8D60-1EC1AA51DB61</key>
 		<dict>
@@ -3878,36 +4068,36 @@ to $command</string>
 			<key>note</key>
 			<string>Google Mobile friendly test</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>860</real>
+			<real>1310</real>
 		</dict>
 		<key>74EBADAD-1421-4108-B523-DAF63DE4DDC0</key>
 		<dict>
 			<key>note</key>
 			<string>Open $url_to_open in $browser</string>
 			<key>xpos</key>
-			<real>3110</real>
+			<real>3180</real>
 			<key>ypos</key>
-			<real>2030</real>
+			<real>2480</real>
 		</dict>
 		<key>7734D9B9-1EE4-4BB7-B71E-C52CD632F972</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3455</real>
+			<real>3525</real>
 			<key>ypos</key>
-			<real>2030</real>
+			<real>2480</real>
 		</dict>
 		<key>7EFE807A-6822-48FF-85F9-9FC0C437C2D0</key>
 		<dict>
 			<key>note</key>
 			<string>Bing Webmaster Tools</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>950</real>
+			<real>1400</real>
 		</dict>
 		<key>8215996C-3637-487C-AC32-5554CFFFBB60</key>
 		<dict>
@@ -3921,18 +4111,27 @@ to $command</string>
 			<key>note</key>
 			<string>Check headers</string>
 			<key>xpos</key>
-			<real>3145</real>
+			<real>3215</real>
 			<key>ypos</key>
-			<real>260</real>
+			<real>710</real>
+		</dict>
+		<key>83FE3223-628B-49BB-9B86-5C38F2DE8287</key>
+		<dict>
+			<key>note</key>
+			<string>Save page on Archive.org</string>
+			<key>xpos</key>
+			<real>3215</real>
+			<key>ypos</key>
+			<real>540</real>
 		</dict>
 		<key>84BBAF6F-7079-4C63-A145-A039C65479DC</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3455</real>
+			<real>3525</real>
 			<key>ypos</key>
-			<real>1910</real>
+			<real>2360</real>
 		</dict>
 		<key>85A31607-D657-429F-A6BB-1287B55EF8EA</key>
 		<dict>
@@ -3953,18 +4152,18 @@ to $command</string>
 			<key>note</key>
 			<string>Site search $domain for $query</string>
 			<key>xpos</key>
-			<real>3310</real>
+			<real>3380</real>
 			<key>ypos</key>
-			<real>1510</real>
+			<real>1960</real>
 		</dict>
 		<key>912B5D23-6234-45B2-BE04-C9D73F21D68D</key>
 		<dict>
 			<key>note</key>
 			<string>Safe browsing test</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>1040</real>
+			<real>1490</real>
 		</dict>
 		<key>93E367E1-7AF1-4F81-B3CA-9A7B3687E6D3</key>
 		<dict>
@@ -3980,27 +4179,27 @@ to $command</string>
 			<key>note</key>
 			<string>Sistrix Hreflang</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>510</real>
+			<real>960</real>
 		</dict>
 		<key>97F79228-9440-489B-B4D4-FD774B552A72</key>
 		<dict>
 			<key>note</key>
 			<string>Lighthouse</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>790</real>
 		</dict>
 		<key>9B2DFB50-1D67-45C9-BC1E-D40AD54AD0A0</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>3455</real>
+			<real>3525</real>
 			<key>ypos</key>
-			<real>2155</real>
+			<real>2605</real>
 		</dict>
 		<key>9DA7DD9A-E214-4B21-9087-53F30B10ACD3</key>
 		<dict>
@@ -4035,18 +4234,27 @@ platform</string>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3625</real>
+			<real>3695</real>
 			<key>ypos</key>
-			<real>2030</real>
+			<real>2480</real>
 		</dict>
 		<key>AF7E0F0F-EF97-4031-99EE-8D261DD43FCB</key>
 		<dict>
 			<key>note</key>
 			<string>Switch based on chosen command</string>
 			<key>xpos</key>
-			<real>2805</real>
+			<real>2815</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>285</real>
+		</dict>
+		<key>B0146586-FD15-478A-9FF8-E95F40845FA4</key>
+		<dict>
+			<key>note</key>
+			<string>Archive.org for site</string>
+			<key>xpos</key>
+			<real>3215</real>
+			<key>ypos</key>
+			<real>630</real>
 		</dict>
 		<key>B0DA6CB3-3124-4ADA-8EE8-A6CE8B1A49E9</key>
 		<dict>
@@ -4060,27 +4268,27 @@ platform</string>
 			<key>note</key>
 			<string>Who hosts $domain?</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>1375</real>
+			<real>1825</real>
 		</dict>
 		<key>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</key>
 		<dict>
 			<key>note</key>
 			<string>Rich Results Test</string>
 			<key>xpos</key>
-			<real>3145</real>
+			<real>3210</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>215</real>
 		</dict>
 		<key>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</key>
 		<dict>
 			<key>note</key>
 			<string>Google Cache</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>425</real>
+			<real>875</real>
 		</dict>
 		<key>BF01B771-F4D6-4EC1-BA17-926885E2FF74</key>
 		<dict>
@@ -4107,16 +4315,16 @@ platform</string>
 			<key>note</key>
 			<string>Schema validator</string>
 			<key>xpos</key>
-			<real>3145</real>
+			<real>3215</real>
 			<key>ypos</key>
-			<real>100</real>
+			<real>300</real>
 		</dict>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<dict>
 			<key>xpos</key>
-			<real>3615</real>
+			<real>3685</real>
 			<key>ypos</key>
-			<real>485</real>
+			<real>935</real>
 		</dict>
 		<key>D22D59ED-2943-486D-BCC0-49D801C8ED4A</key>
 		<dict>
@@ -4134,25 +4342,25 @@ platform</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<real>3855</real>
+			<real>3925</real>
 			<key>ypos</key>
-			<real>1465</real>
+			<real>1915</real>
 		</dict>
 		<key>D4D411C5-9C5A-4CE4-91A5-1CB1DD093F55</key>
 		<dict>
 			<key>xpos</key>
-			<real>3290</real>
+			<real>3360</real>
 			<key>ypos</key>
-			<real>2035</real>
+			<real>2485</real>
 		</dict>
 		<key>D847FD55-FEE0-4B86-8212-429B2F9AA63D</key>
 		<dict>
 			<key>note</key>
 			<string>Ask for keyword to search for</string>
 			<key>xpos</key>
-			<real>3115</real>
+			<real>3185</real>
 			<key>ypos</key>
-			<real>1480</real>
+			<real>1930</real>
 		</dict>
 		<key>DA6BDBDD-6F88-4BDB-B3EE-7EB9EE42A791</key>
 		<dict>
@@ -4171,9 +4379,9 @@ to $platform</string>
 			<key>note</key>
 			<string>Open $url_to_open in $browser</string>
 			<key>xpos</key>
-			<real>3685</real>
+			<real>3755</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>905</real>
 		</dict>
 		<key>E59A00FD-D086-4F71-8E7F-CA5DBA34B944</key>
 		<dict>
@@ -4206,27 +4414,27 @@ to $browser</string>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3625</real>
+			<real>3695</real>
 			<key>ypos</key>
-			<real>1910</real>
+			<real>2360</real>
 		</dict>
 		<key>F0048412-868D-42F9-863A-1FB7A96A5388</key>
 		<dict>
 			<key>note</key>
 			<string>Is it up for $domain</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>1300</real>
+			<real>1750</real>
 		</dict>
 		<key>F19619A8-D7A6-42EE-B694-6120AD4705BC</key>
 		<dict>
 			<key>note</key>
 			<string>Facebook Sharing debugger</string>
 			<key>xpos</key>
-			<real>3150</real>
+			<real>3220</real>
 			<key>ypos</key>
-			<real>680</real>
+			<real>1130</real>
 		</dict>
 		<key>F1C2B120-7926-4546-B3BD-9806685E021A</key>
 		<dict>
@@ -4247,9 +4455,9 @@ platform</string>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>3180</real>
+			<real>3250</real>
 			<key>ypos</key>
-			<real>1860</real>
+			<real>2310</real>
 		</dict>
 		<key>FBE8DF43-83A7-4E29-A531-7C6DCF9D21C3</key>
 		<dict>
@@ -4265,9 +4473,9 @@ platform</string>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3180</real>
+			<real>3250</real>
 			<key>ypos</key>
-			<real>1630</real>
+			<real>2080</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -4325,8 +4533,6 @@ platform</string>
 			<string>default_browser</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>3.0</string>
 	<key>webaddress</key>
