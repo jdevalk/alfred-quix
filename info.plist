@@ -533,6 +533,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6FED77BA-02AE-42F5-BEBA-27E5C0669D7D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88979365-843B-4064-BF9E-A00E7BB64D69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>74EBADAD-1421-4108-B523-DAF63DE4DDC0</key>
 		<array>
 			<dict>
@@ -1326,7 +1339,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>88979365-843B-4064-BF9E-A00E7BB64D69</string>
+				<string>6FED77BA-02AE-42F5-BEBA-27E5C0669D7D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3308,6 +3321,21 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/text-processing/text.encode.percent</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>6FED77BA-02AE-42F5-BEBA-27E5C0669D7D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
@@ -3781,6 +3809,10 @@ It comes with 3 built-in commands:
 
 ## Changelog
 
+### 3.1.2
+
+* Fix for site search commands when your search term is more than one word.
+
 ### 3.1.1
 
 * Minor fix for archive.org site command.
@@ -4076,6 +4108,13 @@ to $command</string>
 			<key>ypos</key>
 			<real>1310</real>
 		</dict>
+		<key>6FED77BA-02AE-42F5-BEBA-27E5C0669D7D</key>
+		<dict>
+			<key>xpos</key>
+			<real>3335</real>
+			<key>ypos</key>
+			<real>1930</real>
+		</dict>
 		<key>74EBADAD-1421-4108-B523-DAF63DE4DDC0</key>
 		<dict>
 			<key>note</key>
@@ -4156,7 +4195,7 @@ to $command</string>
 			<key>note</key>
 			<string>Site search $domain for $query</string>
 			<key>xpos</key>
-			<real>3380</real>
+			<real>3490</real>
 			<key>ypos</key>
 			<real>1960</real>
 		</dict>
@@ -4540,7 +4579,7 @@ platform</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.1.1</string>
+	<string>3.1.2</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>

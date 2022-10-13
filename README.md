@@ -28,6 +28,10 @@ Download the [`Quix.alfredworkflow`](https://github.com/jdevalk/alfred-quix/raw/
 
 ## Changelog
 
+### 3.1.2
+
+* Fix for site search commands when your search term is more than one word.
+
 ### 3.1.1
 
 * Minor fix for archive.org site command.
