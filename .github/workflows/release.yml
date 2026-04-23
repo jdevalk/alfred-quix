@@ -1,0 +1,60 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build standard package (with updater)
+        run: |
+          mkdir -p build/standard
+          cp info.plist icon.png build/standard/
+          cd build/standard
+          zip -j ../../Quix.alfredworkflow info.plist icon.png
+
+      - name: Build gallery package (without updater)
+        run: |
+          mkdir -p build/gallery
+          cp icon.png build/gallery/
+          python3 - <<'EOF'
+          import plistlib
+
+          UPDATER_UID = "D2775E3F-13E7-4C45-A67F-B55F731D0665"
+
+          with open("info.plist", "rb") as f:
+              data = plistlib.load(f)
+
+          data["objects"] = [o for o in data["objects"] if o.get("uid") != UPDATER_UID]
+
+          conn = data["connections"]
+          for src in list(conn):
+              filtered = [d for d in conn[src] if d.get("destinationuid") != UPDATER_UID]
+              if not filtered:
+                  del conn[src]
+              else:
+                  conn[src] = filtered
+
+          data["uidata"].pop(UPDATER_UID, None)
+
+          with open("build/gallery/info.plist", "wb") as f:
+              plistlib.dump(data, f, fmt=plistlib.FMT_XML)
+          EOF
+          cd build/gallery
+          zip -j ../../Quix-gallery.alfredworkflow info.plist icon.png
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            Quix.alfredworkflow
+            Quix-gallery.alfredworkflow
+          generate_release_notes: true
