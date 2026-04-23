@@ -4222,6 +4222,10 @@ It comes with 3 built-in commands:
 
 ## Changelog
 
+### 4.0.1
+
+* Switched auto-updater to use GitHub releases.
+
 ### 4.0
 
 * Added speed checks via GTmetrix and WebPageTest.
@@ -5065,7 +5069,7 @@ platform</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>4.0</string>
+	<string>4.0.1</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>
