@@ -18,6 +18,10 @@ Alternatively, configure the <kbd>⌘</kbd><kbd>⎇</kbd><kbd>S</kbd> Hotkey for
 
 ## Changelog
 
+### 4.0.1
+
+* Switched auto-updater to use GitHub releases.
+
 ### 4.0
 
 * Added speed checks via GTmetrix and WebPageTest.
