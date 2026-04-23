@@ -18,11 +18,16 @@ Alternatively, configure the <kbd>⌘</kbd><kbd>⎇</kbd><kbd>S</kbd> Hotkey for
 
 ## Changelog
 
-### 3.2
+### 4.0
 
-* Added Robots.txt command to quickly open the robots.txt file for the current domain.
-* Added Security headers command to check HTTP security headers via securityheaders.com.
-* Renamed "Social" to "Clear social cache" and added a new "Social" command for a unified social preview via metatags.io.
+* Added speed checks via GTmetrix and WebPageTest.
+* Added W3C HTML validator, SSL certificate check (SSL Labs), and DNS check (MXToolbox).
+* Added Robots.txt, security headers, and Bing cache commands.
+* Added unified social preview via metatags.io; renamed old "Social" command to "Clear social cache".
+* Updated Twitter card validator to cards-dev.x.com.
+* Removed broken Google cache command; replaced with Bing cache.
+* Removed deprecated Mobile Friendly Test.
+* Updated PageSpeed Insights URL to pagespeed.web.dev.
 
 ### 3.1.2
 
