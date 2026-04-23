@@ -287,6 +287,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2CC631D2-E786-4A5A-A2F9-D2638EA13D18</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2F88D986-4994-4D75-A100-40BB23ECE1CE</key>
 		<array>
 			<dict>
@@ -318,6 +331,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>678FAF24-3514-4447-9EC4-065C2EBF7A11</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3F957A14-6714-4E4F-94BA-D111B1A7AD85</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -512,19 +538,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>60A6F76B-F5FE-4F50-99E9-74638E0F520A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>6E2A7DB1-08E3-4B38-B1E9-78AD8E5E20E1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -941,18 +954,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>A6886CAB-1F99-4994-AE6E-C41F6FF67D15</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -1042,18 +1043,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>B9DD1E9C-0801-4929-869D-7BE05BB44036</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E2A7DB1-08E3-4B38-B1E9-78AD8E5E20E1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>9AB12FAC-36D4-4E09-9182-9B5CD0B4790C</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1165,8 +1154,129 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2CC631D2-E786-4A5A-A2F9-D2638EA13D18</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>42C6F388-FC16-43C5-98E8-88C76B221702</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F957A14-6714-4E4F-94BA-D111B1A7AD85</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2406A7F7-C3E7-4DF0-81AB-AD28D7BB266F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0D1F3A9-260D-479A-A80C-F90EEE166E49</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F4987F39-CBAE-40D2-938B-F80FA3078508</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CD2318B3-6CF2-4C9A-B500-3751DF2FF617</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>CC6D3707-3424-44FF-950A-506097FAF7FF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D96F6E9C-DEF7-4710-B69F-11DC4DED4F38</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6699BD2F-AFF3-4195-BA89-87C76B3CCB51</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF7747AD-0FD0-4F48-B4C6-EE66D2BD6A45</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E5BA9BFC-4910-4ACD-8CFF-B1D65C75E10D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD1EB21D-EC9B-4BE4-B1F3-7A69E4174292</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C22599A8-F7AA-4965-A344-769F8C1CC7AD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D45F994C-3602-431A-968A-E58CC1DF7AA9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>65847CD4-20FE-4103-BD0E-08FC9BA7AAE3</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D1421F9B-3B7D-45F9-BCEE-32690EB571A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4D5458B5-A350-43D1-AB55-4A637BCDF1C8</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>B0146586-FD15-478A-9FF8-E95F40845FA4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0D1F3A9-260D-479A-A80C-F90EEE166E49</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -1218,19 +1328,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>BF01B771-F4D6-4EC1-BA17-926885E2FF74</key>
 		<array>
 			<dict>
@@ -1270,6 +1367,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CD2318B3-6CF2-4C9A-B500-3751DF2FF617</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<array>
 			<dict>
@@ -1283,11 +1393,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D1421F9B-3B7D-45F9-BCEE-32690EB571A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D22D59ED-2943-486D-BCC0-49D801C8ED4A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>C55582A2-485C-4A3A-8096-C0B0D2834988</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D45F994C-3602-431A-968A-E58CC1DF7AA9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1348,6 +1484,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D96F6E9C-DEF7-4710-B69F-11DC4DED4F38</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DA6BDBDD-6F88-4BDB-B3EE-7EB9EE42A791</key>
 		<array>
 			<dict>
@@ -1366,6 +1515,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D2775E3F-13E7-4C45-A67F-B55F731D0665</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF7747AD-0FD0-4F48-B4C6-EE66D2BD6A45</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1483,6 +1645,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8215996C-3637-487C-AC32-5554CFFFBB60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD1EB21D-EC9B-4BE4-B1F3-7A69E4174292</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1879,20 +2054,6 @@ return the_url as text</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>cache</string>
-						<key>outputlabel</key>
-						<string>cache</string>
-						<key>uid</key>
-						<string>A6886CAB-1F99-4994-AE6E-C41F6FF67D15</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:command}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
 						<string>hreflang</string>
 						<key>outputlabel</key>
 						<string>hreflang</string>
@@ -1940,20 +2101,6 @@ return the_url as text</string>
 						<string>pinterest</string>
 						<key>uid</key>
 						<string>CC9793CC-26BE-41A1-92E4-7D96A8B38B28</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:command}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>mobile</string>
-						<key>outputlabel</key>
-						<string>mobile</string>
-						<key>uid</key>
-						<string>9AB12FAC-36D4-4E09-9182-9B5CD0B4790C</string>
 					</dict>
 					<dict>
 						<key>inputstring</key>
@@ -2089,9 +2236,9 @@ return the_url as text</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>social</string>
+						<string>clear-social</string>
 						<key>outputlabel</key>
-						<string>social</string>
+						<string>clear-social</string>
 						<key>uid</key>
 						<string>B9DD1E9C-0801-4929-869D-7BE05BB44036</string>
 					</dict>
@@ -2108,6 +2255,132 @@ return the_url as text</string>
 						<string>twitter</string>
 						<key>uid</key>
 						<string>B432B53B-D4E2-4F1E-978E-981F5AE8F0AF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>robots</string>
+						<key>outputlabel</key>
+						<string>robots</string>
+						<key>uid</key>
+						<string>42C6F388-FC16-43C5-98E8-88C76B221702</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>securityheaders</string>
+						<key>outputlabel</key>
+						<string>securityheaders</string>
+						<key>uid</key>
+						<string>2406A7F7-C3E7-4DF0-81AB-AD28D7BB266F</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>social</string>
+						<key>outputlabel</key>
+						<string>social</string>
+						<key>uid</key>
+						<string>F4987F39-CBAE-40D2-938B-F80FA3078508</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>speed-gtmetrix</string>
+						<key>outputlabel</key>
+						<string>speed-gtmetrix</string>
+						<key>uid</key>
+						<string>CC6D3707-3424-44FF-950A-506097FAF7FF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>speed-wpt</string>
+						<key>outputlabel</key>
+						<string>speed-wpt</string>
+						<key>uid</key>
+						<string>6699BD2F-AFF3-4195-BA89-87C76B3CCB51</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>w3c</string>
+						<key>outputlabel</key>
+						<string>w3c</string>
+						<key>uid</key>
+						<string>E5BA9BFC-4910-4ACD-8CFF-B1D65C75E10D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ssl</string>
+						<key>outputlabel</key>
+						<string>ssl</string>
+						<key>uid</key>
+						<string>C22599A8-F7AA-4965-A344-769F8C1CC7AD</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>dns</string>
+						<key>outputlabel</key>
+						<string>dns</string>
+						<key>uid</key>
+						<string>65847CD4-20FE-4103-BD0E-08FC9BA7AAE3</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:command}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>bing-cache</string>
+						<key>outputlabel</key>
+						<string>bing-cache</string>
+						<key>uid</key>
+						<string>4D5458B5-A350-43D1-AB55-4A637BCDF1C8</string>
 					</dict>
 				</array>
 				<key>elselabel</key>
@@ -2599,7 +2872,7 @@ return the_url as text</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"Header check","arg":"header","subtitle":"Check HTTP headers for {var:url}"},{"title":"Site search","arg":"site-search","subtitle":"Search {var:domain} for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"Cache","arg":"cache","subtitle":"See the URL in Google's cache"},{"title":"SEO CSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check URL in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Mobile friendly test","arg":"mobile","subtitle":"Test in Google's mobile friendly test"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for {var:domain}"},{"title":"Social","arg":"social","subtitle":"Check URL in all social sites"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"},{"title":"Schema validator","arg":"schema","subtitle":"Open URL in schema validator"},{"title":"Is this site down?","arg":"issitedown","subtitle":"Or is it just me?"},{"title":"Who hosts {var:domain}?","arg":"whohosts"},{"title":"Archive for page","arg":"archive-page","subtitle":"Open page in archive.org"},{"title":"Archive for site","arg":"archive-site","subtitle":"Open the site in archive.org"},{"title":"Save page on Archive.org","arg":"archive-save","subtitle":"Saves the current page on archive.org"}]</string>
+				<string>[{"title":"Snippet test","arg":"snippet","subtitle":"Test URL in Google's structured data tools"},{"title":"HTTP header check","arg":"header","subtitle":"Check HTTP headers for {var:url}"},{"title":"Site search","arg":"site-search","subtitle":"Search {var:domain} for term"},{"title":"Speed check","arg":"speed","subtitle":"Check site in PageSpeed Insights"},{"title":"SEO CSS","arg":"seocss","subtitle":"Add a CSS file to current page highlighting headers and (nofollow) links"},{"title":"Hreflang","arg":"hreflang","subtitle":"Check the hreflang tags for URL"},{"title":"Facebook","arg":"fb","subtitle":"Check URL in FB's sharing debugger"},{"title":"Twitter","arg":"twitter","subtitle":"Check URL in Twitter's card validator"},{"title":"LinkedIn","arg":"linkedin","subtitle":"Check URL in LinkedIn's post validator"},{"title":"Pinterest","arg":"pinterest","subtitle":"Open URL in Pinterest Rich Pin Validator"},{"title":"Safe browsing","arg":"safe","subtitle":"Checks whether the domain is currently marked safe for browsing by Google"},{"title":"Page experience","arg":"page-experience","subtitle":"Checks all page experience ranking factors"},{"title":"Bing Webmaster Tools","arg":"bing","subtitle":"Open the current domain in Bing Webmaster Tools"},{"title":"Google Search Console","arg":"gsc","subtitle":"Open the current domain in Google Search Console"},{"title":"Whois domain","arg":"whois","subtitle":"Open whois for {var:domain}"},{"title":"Clear social cache","arg":"clear-social","subtitle":"Clear URL from all social caches"},{"title":"Classy Schema","arg":"classy","subtitle":"Open URL in Classy Schema"},{"title":"Rich Results Test","arg":"rrt","subtitle":"Open URL in Google's Rich Results Test"},{"title":"Schema validator","arg":"schema","subtitle":"Open URL in schema validator"},{"title":"Is this site down?","arg":"issitedown","subtitle":"Or is it just me?"},{"title":"Who hosts {var:domain}?","arg":"whohosts"},{"title":"Archive for page","arg":"archive-page","subtitle":"Open page in archive.org"},{"title":"Archive for site","arg":"archive-site","subtitle":"Open the site in archive.org"},{"title":"Save page on Archive.org","arg":"archive-save","subtitle":"Saves the current page on archive.org"},{"title":"Robots.txt","arg":"robots","subtitle":"Open robots.txt for {var:domain}"},{"title":"Security headers","arg":"securityheaders","subtitle":"Check security headers for {var:domain}"},{"title":"Social","arg":"social","subtitle":"Preview how URL looks on all social platforms"},{"title":"Speed - GTmetrix","arg":"speed-gtmetrix","subtitle":"Test site speed in GTmetrix"},{"title":"Speed - WebPageTest","arg":"speed-wpt","subtitle":"Test site speed in WebPageTest"},{"title":"W3C HTML","arg":"w3c","subtitle":"Validate HTML for {var:url}"},{"title":"SSL check","arg":"ssl","subtitle":"Check SSL certificate for {var:domain}"},{"title":"DNS check","arg":"dns","subtitle":"Check DNS records for {var:domain}"},{"title":"Bing cache","arg":"bing-cache","subtitle":"See the URL in Bing's cache"}]</string>
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
@@ -2914,33 +3187,13 @@ return the_url as text</string>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://developers.google.com/speed/pagespeed/insights/?url={var:url}</string>
+					<string>https://pagespeed.web.dev/report?url={var:url_encoded}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>97F79228-9440-489B-B4D4-FD774B552A72</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://webcache.googleusercontent.com/search?q=cache:{var:url}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3076,26 +3329,6 @@ end tell</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>28DED6E8-14E4-482C-B731-C19CA1AA20DF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>url_to_open</key>
-					<string>https://search.google.com/test/mobile-friendly?url={var:url_encoded}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>6E2A7DB1-08E3-4B38-B1E9-78AD8E5E20E1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3337,7 +3570,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -3575,7 +3808,7 @@ end tell</string>
 					<key>custom_browser</key>
 					<string>{var:browser}</string>
 					<key>match_string</key>
-					<string>https://cards-dev.twitter.com/validator</string>
+					<string>https://cards-dev.x.com/validator</string>
 					<key>popup_browser</key>
 					<string>custom</string>
 				</dict>
@@ -3653,7 +3886,7 @@ end tell</string>
 					<key>custom_browser</key>
 					<string>{var:browser}</string>
 					<key>match_string</key>
-					<string>https://cards-dev.twitter.com/validator</string>
+					<string>https://cards-dev.x.com/validator</string>
 					<key>popup_browser</key>
 					<string>custom</string>
 				</dict>
@@ -3737,7 +3970,7 @@ end tell</string>
 				<key>variables</key>
 				<dict>
 					<key>url_to_open</key>
-					<string>https://cards-dev.twitter.com/validator?url={var:url}</string>
+					<string>https://cards-dev.x.com/validator?url={var:url}</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -3797,6 +4030,186 @@ end tell</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>{var:protocol}://{var:domain}/robots.txt</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2CC631D2-E786-4A5A-A2F9-D2638EA13D18</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://securityheaders.com/?q={var:url_encoded}&amp;followRedirects=on</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3F957A14-6714-4E4F-94BA-D111B1A7AD85</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://metatags.io/?url={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B0D1F3A9-260D-479A-A80C-F90EEE166E49</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://gtmetrix.com/?url={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CD2318B3-6CF2-4C9A-B500-3751DF2FF617</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://webpagetest.org/run?url={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D96F6E9C-DEF7-4710-B69F-11DC4DED4F38</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://validator.w3.org/nu/?doc={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DF7747AD-0FD0-4F48-B4C6-EE66D2BD6A45</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://www.ssllabs.com/ssltest/analyze.html?d={var:domain}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>FD1EB21D-EC9B-4BE4-B1F3-7A69E4174292</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://mxtoolbox.com/SuperTool.aspx?action=dns:{var:domain}&amp;run=toolpage</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D45F994C-3602-431A-968A-E58CC1DF7AA9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>url_to_open</key>
+					<string>https://cc.bingj.com/cache.aspx?q={var:url_encoded}&amp;d={var:url_encoded}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D1421F9B-3B7D-45F9-BCEE-32690EB571A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This workflow pretty much works straight ouf the box, as soon as you *assign the hotkeys*!
@@ -3808,6 +4221,16 @@ It comes with 3 built-in commands:
 - Whois, opened by typing `whois`, or `whois example.com`
 
 ## Changelog
+
+### 4.0
+
+* Added speed checks via GTmetrix and WebPageTest.
+* Added W3C HTML validator, SSL certificate check (SSL Labs), DNS check (MXToolbox), and Bing cache.
+* Added security headers check and social preview via metatags.io.
+* Updated Twitter card validator URL to cards-dev.x.com.
+* Removed broken Google cache command; replaced with Bing cache.
+* Removed deprecated Mobile Friendly Test.
+* Updated PageSpeed Insights URL to pagespeed.web.dev.
 
 ### 3.1.2
 
@@ -3850,41 +4273,41 @@ Initial version.</string>
 		<key>0256E4B5-F897-4124-A3B3-4E035AB4B8E6</key>
 		<dict>
 			<key>xpos</key>
-			<real>770</real>
+			<real>770.0</real>
 			<key>ypos</key>
-			<real>390</real>
+			<real>390.0</real>
 		</dict>
 		<key>06E52071-FB47-453E-929D-C5A64D84B3A5</key>
 		<dict>
 			<key>xpos</key>
-			<real>3890</real>
+			<real>3890.0</real>
 			<key>ypos</key>
-			<real>2565</real>
+			<real>2565.0</real>
 		</dict>
 		<key>0980DD77-8F51-419A-8E79-CA65A5D4E063</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>890</real>
+			<real>890.0</real>
 			<key>ypos</key>
-			<real>120</real>
+			<real>120.0</real>
 		</dict>
 		<key>1517154D-5872-42E0-A953-C68D485289F3</key>
 		<dict>
 			<key>xpos</key>
-			<real>515</real>
+			<real>515.0</real>
 			<key>ypos</key>
-			<real>475</real>
+			<real>475.0</real>
 		</dict>
 		<key>154C09C6-F164-4D53-AB18-57F8A1240487</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>750</real>
+			<real>750.0</real>
 			<key>ypos</key>
-			<real>100</real>
+			<real>100.0</real>
 		</dict>
 		<key>1BB6C7DC-B7CD-45A1-968A-78B038735424</key>
 		<dict>
@@ -3894,32 +4317,32 @@ Initial version.</string>
 			<string>Save "WebKit"
 to $platform</string>
 			<key>xpos</key>
-			<real>1095</real>
+			<real>1095.0</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>330.0</real>
 		</dict>
 		<key>25D62694-3EB1-485D-97A6-D1A493DC4E1D</key>
 		<dict>
 			<key>xpos</key>
-			<real>3115</real>
+			<real>3115.0</real>
 			<key>ypos</key>
-			<real>2200</real>
+			<real>2200.0</real>
 		</dict>
 		<key>26EE7FF4-E838-48A7-870A-B5A928285D64</key>
 		<dict>
 			<key>note</key>
 			<string>Set $command to 'site-search'</string>
 			<key>xpos</key>
-			<real>215</real>
+			<real>215.0</real>
 			<key>ypos</key>
-			<real>765</real>
+			<real>765.0</real>
 		</dict>
 		<key>27399DD9-E030-47E7-BD8D-D898FA1E7874</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>30.0</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>295.0</real>
 		</dict>
 		<key>2781AF15-BF67-4560-8631-C4F204586544</key>
 		<dict>
@@ -3928,86 +4351,104 @@ to $platform</string>
 			<key>note</key>
 			<string>Switch to default browser</string>
 			<key>xpos</key>
-			<real>1095</real>
+			<real>1095.0</real>
 			<key>ypos</key>
-			<real>625</real>
+			<real>625.0</real>
 		</dict>
 		<key>28DED6E8-14E4-482C-B731-C19CA1AA20DF</key>
 		<dict>
 			<key>note</key>
 			<string>Pinterest rich pin validator</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>1220.0</real>
+		</dict>
+		<key>2CC631D2-E786-4A5A-A2F9-D2638EA13D18</key>
+		<dict>
+			<key>note</key>
+			<string>Robots.txt</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>1915.0</real>
 		</dict>
 		<key>2F88D986-4994-4D75-A100-40BB23ECE1CE</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3250</real>
+			<real>3250.0</real>
 			<key>ypos</key>
-			<real>2195</real>
+			<real>2195.0</real>
 		</dict>
 		<key>30ABB264-3890-4651-9971-DDD0AD9C9C91</key>
 		<dict>
 			<key>note</key>
 			<string>Classy Schema</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>380.0</real>
 		</dict>
 		<key>3B9D9BC3-395C-48F8-BFE3-DDB37FFD8301</key>
 		<dict>
 			<key>note</key>
 			<string>Choose which command to perform</string>
 			<key>xpos</key>
-			<real>2540</real>
+			<real>2540.0</real>
 			<key>ypos</key>
-			<real>510</real>
+			<real>510.0</real>
+		</dict>
+		<key>3F957A14-6714-4E4F-94BA-D111B1A7AD85</key>
+		<dict>
+			<key>note</key>
+			<string>Security headers</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2050.0</real>
 		</dict>
 		<key>45D00084-EF65-4136-BFD4-2EF563023ACE</key>
 		<dict>
 			<key>note</key>
 			<string>LinkedIn Post inspector</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1040</real>
+			<real>1040.0</real>
 		</dict>
 		<key>481C9EE5-F598-4FBA-93E6-F4C304F39C6B</key>
 		<dict>
 			<key>note</key>
 			<string>Google Search Console</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1570</real>
+			<real>1570.0</real>
 		</dict>
 		<key>48AF63C5-06D5-4548-AD66-95BC33F54916</key>
 		<dict>
 			<key>note</key>
 			<string>Archive.org for page</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>460.0</real>
 		</dict>
 		<key>4ED756AF-AE52-40A6-AD65-9BEA324086E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>3100</real>
+			<real>3100.0</real>
 			<key>ypos</key>
-			<real>2510</real>
+			<real>2510.0</real>
 		</dict>
 		<key>504FD885-DA7B-44EE-9D46-0E8282BE70D1</key>
 		<dict>
 			<key>xpos</key>
-			<real>2330</real>
+			<real>2330.0</real>
 			<key>ypos</key>
-			<real>625</real>
+			<real>625.0</real>
 		</dict>
 		<key>5063C334-C36D-41A7-9F5E-38A7671BCA66</key>
 		<dict>
@@ -4015,16 +4456,16 @@ to $platform</string>
 			<string>Save protocol
 to $protocol</string>
 			<key>xpos</key>
-			<real>2205</real>
+			<real>2205.0</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>430.0</real>
 		</dict>
 		<key>52A93C7B-7E6F-4CB7-BB5D-473B4B51CC95</key>
 		<dict>
 			<key>xpos</key>
-			<real>3470</real>
+			<real>3470.0</real>
 			<key>ypos</key>
-			<real>2225</real>
+			<real>2225.0</real>
 		</dict>
 		<key>56B7B5B5-2091-49B6-91A9-85308DC0458C</key>
 		<dict>
@@ -4032,27 +4473,27 @@ to $protocol</string>
 			<string>Save domain
 to $domain</string>
 			<key>xpos</key>
-			<real>2040</real>
+			<real>2040.0</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>430.0</real>
 		</dict>
 		<key>5AE9F6DF-C034-4806-87CC-4DCED30CF014</key>
 		<dict>
 			<key>note</key>
 			<string>Domaintools Whois $domain</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1660</real>
+			<real>1660.0</real>
 		</dict>
 		<key>5E03C817-8FEB-41BC-B3E6-7277B074649C</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>1425</real>
+			<real>1425.0</real>
 			<key>ypos</key>
-			<real>130</real>
+			<real>130.0</real>
 		</dict>
 		<key>60A6F76B-F5FE-4F50-99E9-74638E0F520A</key>
 		<dict>
@@ -4060,25 +4501,25 @@ to $domain</string>
 			<string>Save URL
 to $url</string>
 			<key>xpos</key>
-			<real>1530</real>
+			<real>1530.0</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>430.0</real>
 		</dict>
 		<key>65FFB943-B758-4EB2-B4DD-999E964B81E8</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>2815</real>
+			<real>2815.0</real>
 			<key>ypos</key>
-			<real>1150</real>
+			<real>1150.0</real>
 		</dict>
 		<key>66D34A6A-02BC-42E2-8D60-1EC1AA51DB61</key>
 		<dict>
 			<key>xpos</key>
-			<real>2410</real>
+			<real>2410.0</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>615.0</real>
 		</dict>
 		<key>678FAF24-3514-4447-9EC4-065C2EBF7A11</key>
 		<dict>
@@ -4086,170 +4527,161 @@ to $url</string>
 			<string>Save command
 to $command</string>
 			<key>xpos</key>
-			<real>2715</real>
+			<real>2715.0</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>540.0</real>
 		</dict>
 		<key>67A8BF74-84B5-44D9-A5D5-ACF201B88E56</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>1285</real>
+			<real>1285.0</real>
 			<key>ypos</key>
-			<real>430</real>
-		</dict>
-		<key>6E2A7DB1-08E3-4B38-B1E9-78AD8E5E20E1</key>
-		<dict>
-			<key>note</key>
-			<string>Google Mobile friendly test</string>
-			<key>xpos</key>
-			<real>3220</real>
-			<key>ypos</key>
-			<real>1310</real>
+			<real>430.0</real>
 		</dict>
 		<key>6FED77BA-02AE-42F5-BEBA-27E5C0669D7D</key>
 		<dict>
 			<key>xpos</key>
-			<real>3335</real>
+			<real>3335.0</real>
 			<key>ypos</key>
-			<real>1930</real>
+			<real>1930.0</real>
 		</dict>
 		<key>74EBADAD-1421-4108-B523-DAF63DE4DDC0</key>
 		<dict>
 			<key>note</key>
 			<string>Open $url_to_open in $browser</string>
 			<key>xpos</key>
-			<real>3180</real>
+			<real>3180.0</real>
 			<key>ypos</key>
-			<real>2480</real>
+			<real>2480.0</real>
 		</dict>
 		<key>7734D9B9-1EE4-4BB7-B71E-C52CD632F972</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3525</real>
+			<real>3525.0</real>
 			<key>ypos</key>
-			<real>2480</real>
+			<real>2480.0</real>
 		</dict>
 		<key>7EFE807A-6822-48FF-85F9-9FC0C437C2D0</key>
 		<dict>
 			<key>note</key>
 			<string>Bing Webmaster Tools</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1400</real>
+			<real>1400.0</real>
 		</dict>
 		<key>8215996C-3637-487C-AC32-5554CFFFBB60</key>
 		<dict>
 			<key>xpos</key>
-			<real>1870</real>
+			<real>1870.0</real>
 			<key>ypos</key>
-			<real>400</real>
+			<real>400.0</real>
 		</dict>
 		<key>828B419E-F7C0-4B48-B5D8-7A8C4088D5D7</key>
 		<dict>
 			<key>note</key>
 			<string>Check headers</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>710</real>
+			<real>710.0</real>
 		</dict>
 		<key>83FE3223-628B-49BB-9B86-5C38F2DE8287</key>
 		<dict>
 			<key>note</key>
 			<string>Save page on Archive.org</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>540.0</real>
 		</dict>
 		<key>84BBAF6F-7079-4C63-A145-A039C65479DC</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3525</real>
+			<real>3525.0</real>
 			<key>ypos</key>
-			<real>2360</real>
+			<real>2360.0</real>
 		</dict>
 		<key>85A31607-D657-429F-A6BB-1287B55EF8EA</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>30.0</real>
 			<key>ypos</key>
-			<real>575</real>
+			<real>575.0</real>
 		</dict>
 		<key>85E7F31C-8265-4B75-8A77-F46B2B14501C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2120</real>
+			<real>2120.0</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>430.0</real>
 		</dict>
 		<key>88979365-843B-4064-BF9E-A00E7BB64D69</key>
 		<dict>
 			<key>note</key>
 			<string>Site search $domain for $query</string>
 			<key>xpos</key>
-			<real>3490</real>
+			<real>3490.0</real>
 			<key>ypos</key>
-			<real>1960</real>
+			<real>1960.0</real>
 		</dict>
 		<key>912B5D23-6234-45B2-BE04-C9D73F21D68D</key>
 		<dict>
 			<key>note</key>
 			<string>Safe browsing test</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1490</real>
+			<real>1490.0</real>
 		</dict>
 		<key>93E367E1-7AF1-4F81-B3CA-9A7B3687E6D3</key>
 		<dict>
 			<key>note</key>
 			<string>Set $command to 'site-search'</string>
 			<key>xpos</key>
-			<real>205</real>
+			<real>205.0</real>
 			<key>ypos</key>
-			<real>605</real>
+			<real>605.0</real>
 		</dict>
 		<key>9736E27A-B79E-4CD2-B75B-5CBA23E409EB</key>
 		<dict>
 			<key>note</key>
 			<string>Sistrix Hreflang</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>960</real>
+			<real>960.0</real>
 		</dict>
 		<key>97F79228-9440-489B-B4D4-FD774B552A72</key>
 		<dict>
 			<key>note</key>
 			<string>Lighthouse</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>790</real>
+			<real>790.0</real>
 		</dict>
 		<key>9B2DFB50-1D67-45C9-BC1E-D40AD54AD0A0</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>3525</real>
+			<real>3525.0</real>
 			<key>ypos</key>
-			<real>2605</real>
+			<real>2605.0</real>
 		</dict>
 		<key>9DA7DD9A-E214-4B21-9087-53F30B10ACD3</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>30.0</real>
 			<key>ypos</key>
-			<real>735</real>
+			<real>735.0</real>
 		</dict>
 		<key>A65B4BDC-BE19-4517-9375-9EBAF4657326</key>
 		<dict>
@@ -4261,86 +4693,86 @@ to $browser
 "Firefox" to 
 platform</string>
 			<key>xpos</key>
-			<real>1095</real>
+			<real>1095.0</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>185.0</real>
 		</dict>
 		<key>A9125ABB-0FBC-4F52-965C-C3E0C78559B3</key>
 		<dict>
 			<key>xpos</key>
-			<real>305</real>
+			<real>305.0</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>755.0</real>
 		</dict>
 		<key>AF5BE930-BB65-4F29-9D20-6F25A825420C</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<real>3695</real>
+			<real>3695.0</real>
 			<key>ypos</key>
-			<real>2480</real>
+			<real>2480.0</real>
 		</dict>
 		<key>AF7E0F0F-EF97-4031-99EE-8D261DD43FCB</key>
 		<dict>
 			<key>note</key>
 			<string>Switch based on chosen command</string>
 			<key>xpos</key>
-			<real>2815</real>
+			<real>2815.0</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>285.0</real>
 		</dict>
 		<key>B0146586-FD15-478A-9FF8-E95F40845FA4</key>
 		<dict>
 			<key>note</key>
 			<string>Archive.org for site</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>630</real>
+			<real>630.0</real>
+		</dict>
+		<key>B0D1F3A9-260D-479A-A80C-F90EEE166E49</key>
+		<dict>
+			<key>note</key>
+			<string>Social preview</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2185.0</real>
 		</dict>
 		<key>B0DA6CB3-3124-4ADA-8EE8-A6CE8B1A49E9</key>
 		<dict>
 			<key>xpos</key>
-			<real>1615</real>
+			<real>1615.0</real>
 			<key>ypos</key>
-			<real>400</real>
+			<real>400.0</real>
 		</dict>
 		<key>B120EC2A-272D-4551-B582-53B2B4C1102D</key>
 		<dict>
 			<key>note</key>
 			<string>Who hosts $domain?</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1825</real>
+			<real>1825.0</real>
 		</dict>
 		<key>B74DC52A-84B7-47AE-A61A-A5A964D0A74D</key>
 		<dict>
 			<key>note</key>
 			<string>Rich Results Test</string>
 			<key>xpos</key>
-			<real>3210</real>
+			<real>3210.0</real>
 			<key>ypos</key>
-			<real>215</real>
-		</dict>
-		<key>BAE56EE8-97B9-4ACD-8D99-06B74388A0A1</key>
-		<dict>
-			<key>note</key>
-			<string>Google Cache</string>
-			<key>xpos</key>
-			<real>3220</real>
-			<key>ypos</key>
-			<real>875</real>
+			<real>215.0</real>
 		</dict>
 		<key>BF01B771-F4D6-4EC1-BA17-926885E2FF74</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>1285</real>
+			<real>1285.0</real>
 			<key>ypos</key>
-			<real>300</real>
+			<real>300.0</real>
 		</dict>
 		<key>C55582A2-485C-4A3A-8096-C0B0D2834988</key>
 		<dict>
@@ -4349,34 +4781,52 @@ platform</string>
 			<key>note</key>
 			<string>Get current Firefox URL</string>
 			<key>xpos</key>
-			<real>1285</real>
+			<real>1285.0</real>
 			<key>ypos</key>
-			<real>100</real>
+			<real>100.0</real>
 		</dict>
 		<key>CCEA0B33-8664-4ED2-A4AB-B25908CA0E7B</key>
 		<dict>
 			<key>note</key>
 			<string>Schema validator</string>
 			<key>xpos</key>
-			<real>3215</real>
+			<real>3215.0</real>
 			<key>ypos</key>
-			<real>300</real>
+			<real>300.0</real>
+		</dict>
+		<key>CD2318B3-6CF2-4C9A-B500-3751DF2FF617</key>
+		<dict>
+			<key>note</key>
+			<string>Speed - GTmetrix</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2320.0</real>
 		</dict>
 		<key>CE2B0692-FCC3-42C2-92A2-22ACC4C1CFEF</key>
 		<dict>
 			<key>xpos</key>
-			<real>3685</real>
+			<real>3685.0</real>
 			<key>ypos</key>
-			<real>935</real>
+			<real>935.0</real>
+		</dict>
+		<key>D1421F9B-3B7D-45F9-BCEE-32690EB571A2</key>
+		<dict>
+			<key>note</key>
+			<string>Bing cache</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2590.0</real>
 		</dict>
 		<key>D22D59ED-2943-486D-BCC0-49D801C8ED4A</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>1215</real>
+			<real>1215.0</real>
 			<key>ypos</key>
-			<real>130</real>
+			<real>130.0</real>
 		</dict>
 		<key>D2775E3F-13E7-4C45-A67F-B55F731D0665</key>
 		<dict>
@@ -4385,25 +4835,43 @@ platform</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<real>3925</real>
+			<real>3925.0</real>
 			<key>ypos</key>
-			<real>1915</real>
+			<real>1915.0</real>
+		</dict>
+		<key>D45F994C-3602-431A-968A-E58CC1DF7AA9</key>
+		<dict>
+			<key>note</key>
+			<string>DNS check</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2455.0</real>
 		</dict>
 		<key>D4D411C5-9C5A-4CE4-91A5-1CB1DD093F55</key>
 		<dict>
 			<key>xpos</key>
-			<real>3360</real>
+			<real>3360.0</real>
 			<key>ypos</key>
-			<real>2485</real>
+			<real>2485.0</real>
 		</dict>
 		<key>D847FD55-FEE0-4B86-8212-429B2F9AA63D</key>
 		<dict>
 			<key>note</key>
 			<string>Ask for keyword to search for</string>
 			<key>xpos</key>
-			<real>3185</real>
+			<real>3185.0</real>
 			<key>ypos</key>
-			<real>1930</real>
+			<real>1930.0</real>
+		</dict>
+		<key>D96F6E9C-DEF7-4710-B69F-11DC4DED4F38</key>
+		<dict>
+			<key>note</key>
+			<string>Speed - WebPageTest</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2320.0</real>
 		</dict>
 		<key>DA6BDBDD-6F88-4BDB-B3EE-7EB9EE42A791</key>
 		<dict>
@@ -4413,27 +4881,36 @@ platform</string>
 			<string>Save "Chromium"
 to $platform</string>
 			<key>xpos</key>
-			<real>1095</real>
+			<real>1095.0</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>460.0</real>
 		</dict>
 		<key>DE5A0DA7-8674-43AE-BAD3-5F5FFBD17AE9</key>
 		<dict>
 			<key>note</key>
 			<string>Open $url_to_open in $browser</string>
 			<key>xpos</key>
-			<real>3755</real>
+			<real>3755.0</real>
 			<key>ypos</key>
-			<real>905</real>
+			<real>905.0</real>
+		</dict>
+		<key>DF7747AD-0FD0-4F48-B4C6-EE66D2BD6A45</key>
+		<dict>
+			<key>note</key>
+			<string>W3C HTML validator</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2320.0</real>
 		</dict>
 		<key>E59A00FD-D086-4F71-8E7F-CA5DBA34B944</key>
 		<dict>
 			<key>note</key>
 			<string>Set $domain to $query</string>
 			<key>xpos</key>
-			<real>460</real>
+			<real>460.0</real>
 			<key>ypos</key>
-			<real>780</real>
+			<real>780.0</real>
 		</dict>
 		<key>E6600FC3-50B6-49B2-8E3C-18831A0492AA</key>
 		<dict>
@@ -4441,43 +4918,43 @@ to $platform</string>
 			<string>Save browser
 to $browser</string>
 			<key>xpos</key>
-			<real>685</real>
+			<real>685.0</real>
 			<key>ypos</key>
-			<real>505</real>
+			<real>505.0</real>
 		</dict>
 		<key>E90F7139-C271-4EDD-AA4B-E90D3CB14D17</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>30.0</real>
 			<key>ypos</key>
-			<real>140</real>
+			<real>140.0</real>
 		</dict>
 		<key>EFBF769C-301A-4F80-AED7-58FE0B9FE530</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3695</real>
+			<real>3695.0</real>
 			<key>ypos</key>
-			<real>2360</real>
+			<real>2360.0</real>
 		</dict>
 		<key>F0048412-868D-42F9-863A-1FB7A96A5388</key>
 		<dict>
 			<key>note</key>
 			<string>Is it up for $domain</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1750</real>
+			<real>1750.0</real>
 		</dict>
 		<key>F19619A8-D7A6-42EE-B694-6120AD4705BC</key>
 		<dict>
 			<key>note</key>
 			<string>Facebook Sharing debugger</string>
 			<key>xpos</key>
-			<real>3220</real>
+			<real>3220.0</real>
 			<key>ypos</key>
-			<real>1130</real>
+			<real>1130.0</real>
 		</dict>
 		<key>F1C2B120-7926-4546-B3BD-9806685E021A</key>
 		<dict>
@@ -4489,36 +4966,45 @@ to $browser
 "Firefox" to 
 platform</string>
 			<key>xpos</key>
-			<real>1095</real>
+			<real>1095.0</real>
 			<key>ypos</key>
-			<real>55</real>
+			<real>55.0</real>
 		</dict>
 		<key>F1E9DF58-E3F4-4160-AA75-351AC2296315</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<real>3250</real>
+			<real>3250.0</real>
 			<key>ypos</key>
-			<real>2310</real>
+			<real>2310.0</real>
 		</dict>
 		<key>FBE8DF43-83A7-4E29-A531-7C6DCF9D21C3</key>
 		<dict>
 			<key>note</key>
 			<string>Save to $url_encoded</string>
 			<key>xpos</key>
-			<real>1780</real>
+			<real>1780.0</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>430.0</real>
+		</dict>
+		<key>FD1EB21D-EC9B-4BE4-B1F3-7A69E4174292</key>
+		<dict>
+			<key>note</key>
+			<string>SSL check</string>
+			<key>xpos</key>
+			<real>3220.0</real>
+			<key>ypos</key>
+			<real>2320.0</real>
 		</dict>
 		<key>FD20FF69-F774-4C9A-9911-435C0284FDF1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
 			<key>xpos</key>
-			<real>3250</real>
+			<real>3250.0</real>
 			<key>ypos</key>
-			<real>2080</real>
+			<real>2080.0</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -4579,7 +5065,7 @@ platform</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.1.2</string>
+	<string>4.0</string>
 	<key>webaddress</key>
 	<string>https://joost.blog/alfred-quix/</string>
 </dict>
