@@ -49,12 +49,12 @@ jobs:
               plistlib.dump(data, f, fmt=plistlib.FMT_XML)
           EOF
           cd build/gallery
-          zip -j ../../Quix-gallery.alfredworkflow info.plist icon.png
+          zip -j ../../Quix-no-auto-update.alfredworkflow info.plist icon.png
 
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
           files: |
             Quix.alfredworkflow
-            Quix-gallery.alfredworkflow
+            Quix-no-auto-update.alfredworkflow
           generate_release_notes: true

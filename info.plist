@@ -3462,8 +3462,8 @@ end tell</string>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/info.plist'
-readonly workflow_url='https://raw.githubusercontent.com/jdevalk/alfred-quix/main/Quix.alfredworkflow'
-readonly download_type='direct'
+readonly workflow_url='jdevalk/alfred-quix'
+readonly download_type='github_release'
 readonly frequency_check='1'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
